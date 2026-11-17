@@ -1,0 +1,95 @@
+{
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "coordinates": {
+    "lat": 25.2048,
+    "lng": 55.2708
+  },
+  "source": "Open-Meteo Climate API ($0.00 Free Open Data)",
+  "monthly_profiles": {
+    "1": {
+      "month_number": 1,
+      "avg_high_c": 23.7,
+      "peak_apparent_temp_c": 28.4,
+      "is_extreme_summer": false,
+      "outdoor_recommendation": "Pleasant seasonal weather. Excellent for outdoor walking tours, souks, and beaches."
+    },
+    "2": {
+      "month_number": 2,
+      "avg_high_c": 26.4,
+      "peak_apparent_temp_c": 31.8,
+      "is_extreme_summer": false,
+      "outdoor_recommendation": "Pleasant seasonal weather. Excellent for outdoor walking tours, souks, and beaches."
+    },
+    "3": {
+      "month_number": 3,
+      "avg_high_c": 28.5,
+      "peak_apparent_temp_c": 33.0,
+      "is_extreme_summer": false,
+      "outdoor_recommendation": "Pleasant seasonal weather. Excellent for outdoor walking tours, souks, and beaches."
+    },
+    "4": {
+      "month_number": 4,
+      "avg_high_c": 29.6,
+      "peak_apparent_temp_c": 34.7,
+      "is_extreme_summer": false,
+      "outdoor_recommendation": "Pleasant seasonal weather. Excellent for outdoor walking tours, souks, and beaches."
+    },
+    "5": {
+      "month_number": 5,
+      "avg_high_c": 35.9,
+      "peak_apparent_temp_c": 41.4,
+      "is_extreme_summer": false,
+      "outdoor_recommendation": "Pleasant seasonal weather. Excellent for outdoor walking tours, souks, and beaches."
+    },
+    "6": {
+      "month_number": 6,
+      "avg_high_c": 38.6,
+      "peak_apparent_temp_c": 48.4,
+      "is_extreme_summer": true,
+      "outdoor_recommendation": "Avoid direct outdoor exposure between 11:30 AM and 04:30 PM. Prioritize air-conditioned indoor venues."
+    },
+    "7": {
+      "month_number": 7,
+      "avg_high_c": 41.3,
+      "peak_apparent_temp_c": 48.7,
+      "is_extreme_summer": true,
+      "outdoor_recommendation": "Avoid direct outdoor exposure between 11:30 AM and 04:30 PM. Prioritize air-conditioned indoor venues."
+    },
+    "8": {
+      "month_number": 8,
+      "avg_high_c": 41.6,
+      "peak_apparent_temp_c": 48.3,
+      "is_extreme_summer": true,
+      "outdoor_recommendation": "Avoid direct outdoor exposure between 11:30 AM and 04:30 PM. Prioritize air-conditioned indoor venues."
+    },
+    "9": {
+      "month_number": 9,
+      "avg_high_c": 40.1,
+      "peak_apparent_temp_c": 47.1,
+      "is_extreme_summer": true,
+      "outdoor_recommendation": "Avoid direct outdoor exposure between 11:30 AM and 04:30 PM. Prioritize air-conditioned indoor venues."
+    },
+    "10": {
+      "month_number": 10,
+      "avg_high_c": 35.4,
+      "peak_apparent_temp_c": 42.9,
+      "is_extreme_summer": false,
+      "outdoor_recommendation": "Pleasant seasonal weather. Excellent for outdoor walking tours, souks, and beaches."
+    },
+    "11": {
+      "month_number": 11,
+      "avg_high_c": 31.3,
+      "peak_apparent_temp_c": 36.4,
+      "is_extreme_summer": false,
+      "outdoor_recommendation": "Pleasant seasonal weather. Excellent for outdoor walking tours, souks, and beaches."
+    },
+    "12": {
+      "month_number": 12,
+      "avg_high_c": 27.2,
+      "peak_apparent_temp_c": 30.6,
+      "is_extreme_summer": false,
+      "outdoor_recommendation": "Pleasant seasonal weather. Excellent for outdoor walking tours, souks, and beaches."
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "agency": "Roads and Transport Authority (RTA) Dubai",
+  "currency": "AED",
+  "fare_rules": {
+    "silver_nol_card": {
+      "tier_1_within_1_zone": 3.00,
+      "tier_2_between_2_adjacent_zones": 5.00,
+      "tier_3_more_than_2_zones": 7.50,
+      "card_issuance_cost": 25.00,
+      "included_e_purse_balance": 19.00,
+      "minimum_card_balance_required": 7.50
+    },
+    "red_ticket_single_use": {
+      "tier_1_within_1_zone": 4.00,
+      "tier_2_between_2_adjacent_zones": 6.00,
+      "tier_3_more_than_2_zones": 8.50,
+      "ticket_issuance_cost": 2.00
+    },
+    "gold_class_nol_card": {
+      "tier_1_within_1_zone": 6.00,
+      "tier_2_between_2_adjacent_zones": 10.00,
+      "tier_3_more_than_2_zones": 15.00
+    },
+    "transfer_window_minutes": 30,
+    "max_transfers_allowed": 3,
+    "free_transfer_condition": "Transfers between Metro, Tram, and Bus within 30 minutes are charged as a single journey based on total zones passed."
+  },
+  "taxi_tariffs": {
+    "standard_metered_taxi": {
+      "daytime_flag_drop_aed": 5.00,
+      "nighttime_flag_drop_aed": 5.50,
+      "peak_booking_flag_drop_aed": 12.00,
+      "per_kilometer_rate_aed": 2.21,
+      "minimum_fare_aed": 12.00,
+      "salik_toll_charge_per_gate_aed": 4.00
+    },
+    "airport_taxi": {
+      "starting_flag_drop_aed": 25.00,
+      "per_kilometer_rate_aed": 2.21
+    }
+  },
+  "marine_transport": {
+    "traditional_motorized_abra_creek": {
+      "fare_per_crossing_aed": 2.00,
+      "route": "Deira Old Souk Station <-> Bur Dubai Station / Sabkha <-> Dubai Old Souk"
+    },
+    "air_conditioned_abra": {
+      "fare_per_trip_aed": 3.00
+    },
+    "dubai_ferry_tourist": {
+      "silver_class_aed": 25.00,
+      "gold_class_aed": 50.00
+    }
+  },
+  "metro_network": {
+    "red_line_stations": [
+      {"name": "Centrepoint", "zone": 5},
+      {"name": "Emirates", "zone": 5},
+      {"name": "Airport Terminal 3", "zone": 5},
+      {"name": "Airport Terminal 1", "zone": 5},
+      {"name": "GGICO", "zone": 5},
+      {"name": "Deira City Centre", "zone": 5},
+      {"name": "Al Rigga", "zone": 5},
+      {"name": "Union", "zone": 5, "is_interchange": true},
+      {"name": "BurJuman", "zone": 5, "is_interchange": true},
+      {"name": "ADCB", "zone": 6},
+      {"name": "Max (Al Jafiliya)", "zone": 6},
+      {"name": "World Trade Centre", "zone": 6},
+      {"name": "Emirates Towers", "zone": 6},
+      {"name": "Financial Centre", "zone": 6},
+      {"name": "Burj Khalifa / Dubai Mall", "zone": 6},
+      {"name": "Business Bay", "zone": 6},
+      {"name": "ONPASSIVE (Al Safa)", "zone": 2},
+      {"name": "Equiti (Umm Al Sheif)", "zone": 2},
+      {"name": "Mall of the Emirates", "zone": 2},
+      {"name": "Mashreq (InsuranceMarket)", "zone": 2},
+      {"name": "Dubai Internet City", "zone": 2},
+      {"name": "Al Khail", "zone": 2},
+      {"name": "Sobha Realty (Dubai Marina)", "zone": 2, "tram_transfer": true},
+      {"name": "DMCC (JLT / JBR)", "zone": 2, "tram_transfer": true},
+      {"name": "Jabal Ali", "zone": 2, "is_interchange": true},
+      {"name": "Ibn Battuta", "zone": 2},
+      {"name": "Energy", "zone": 2},
+      {"name": "Danube", "zone": 1},
+      {"name": "UAE Exchange", "zone": 1},
+      {"name": "The Gardens", "zone": 2},
+      {"name": "Discovery Gardens", "zone": 2},
+      {"name": "Al Furjan", "zone": 2},
+      {"name": "Jumeirah Golf Estates", "zone": 1},
+      {"name": "Dubai Investment Park", "zone": 1},
+      {"name": "Expo 2020", "zone": 1}
+    ],
+    "green_line_stations": [
+      {"name": "Etisalat by e&", "zone": 5},
+      {"name": "Al Qusais", "zone": 5},
+      {"name": "Dubai Airport Free Zone", "zone": 5},
+      {"name": "Al Nahda", "zone": 5},
+      {"name": "Stadium", "zone": 5},
+      {"name": "Al Qiyadah", "zone": 5},
+      {"name": "Abu Hail", "zone": 5},
+      {"name": "Abu Baker Al Siddique", "zone": 5},
+      {"name": "Salah Al Din", "zone": 5},
+      {"name": "Union", "zone": 5, "is_interchange": true},
+      {"name": "Baniyas Square", "zone": 5},
+      {"name": "Gold Souq", "zone": 5},
+      {"name": "Al Ras", "zone": 5},
+      {"name": "Al Ghubaiba", "zone": 5},
+      {"name": "Sharaf DG", "zone": 5},
+      {"name": "Al Fahidi", "zone": 5},
+      {"name": "BurJuman", "zone": 5, "is_interchange": true},
+      {"name": "Oud Metha", "zone": 5},
+      {"name": "Dubai Healthcare City", "zone": 5},
+      {"name": "Al Jadaf", "zone": 5},
+      {"name": "Creek", "zone": 5}
+    ]
+  }
+}

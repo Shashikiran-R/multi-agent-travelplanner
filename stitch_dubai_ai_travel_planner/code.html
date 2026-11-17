@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;700&family=Syne:wght@600;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Syne:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-error":"#690005","primary-fixed":"#eaddff","error-container":"#93000a","background":"#10131a","surface-variant":"#32353d","surface-bright":"#363941","on-tertiary-fixed-variant":"#003ea8","surface-container-high":"#272a32","surface-container":"#1d1f27","surface":"#10131a","outline":"#958da1","secondary":"#ffb95f","secondary-container":"#ee9800","surface-container-low":"#191b23","secondary-fixed-dim":"#ffb95f","primary-fixed-dim":"#d2bbff","on-secondary-fixed-variant":"#653e00","tertiary-container":"#185ce4","on-tertiary-fixed":"#00174b","surface-container-lowest":"#0b0e15","on-background":"#e1e2ec","on-secondary-container":"#5b3800","surface-tint":"#d2bbff","on-tertiary":"#002a78","on-secondary-fixed":"#2a1700","surface-container-highest":"#32353d","on-error-container":"#ffdad6","on-surface-variant":"#ccc3d8","tertiary-fixed-dim":"#b4c5ff","surface-dim":"#10131a","on-primary-fixed-variant":"#5a00c6","error":"#ffb4ab","on-primary-fixed":"#25005a","inverse-surface":"#e1e2ec","inverse-on-surface":"#2d3038","inverse-primary":"#732ee4","on-secondary":"#472a00","tertiary-fixed":"#dbe1ff","on-surface":"#e1e2ec","on-tertiary-container":"#e0e5ff","secondary-fixed":"#ffddb8","outline-variant":"#4a4455","primary-container":"#7c3aed","on-primary-container":"#ede0ff","tertiary":"#b4c5ff","on-primary":"#3f008e","primary":"#d2bbff"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"margin-desktop":"4rem","space-sm":"0.5rem",gutter:"1.5rem","space-lg":"1.5rem","space-xl":"2.5rem","space-2xl":"4rem",margin:"1rem","space-xs":"0.25rem","gutter-desktop":"2.5rem","margin-tablet":"2rem","space-md":"1rem"},fontFamily:{"headline-xl":["Syne"],"headline-md":["Syne"],"headline-lg":["Syne"],"display-hero-mobile":["Syne"],"display-hero":["Syne"],"headline-xl-mobile":["Syne"],"headline-sm":["Syne"],"body-xl":["Geist"],"label-lg":["Geist"],"body-sm":["Geist"],"label-md":["Geist"],"body-lg":["Geist"],"body-md":["Geist"],"label-sm":["Geist"]},fontSize:{"headline-xl":["48px",{lineHeight:"54px",letterSpacing:"-0.025em",fontWeight:"700"}],"headline-md":["24px",{lineHeight:"30px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-lg":["32px",{lineHeight:"38px",letterSpacing:"-0.015em",fontWeight:"600"}],"display-hero-mobile":["40px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"800"}],"display-hero":["72px",{lineHeight:"76px",letterSpacing:"-0.03em",fontWeight:"800"}],"headline-xl-mobile":["32px",{lineHeight:"38px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-sm":["20px",{lineHeight:"26px",letterSpacing:"-0.005em",fontWeight:"600"}],"body-xl":["18px",{lineHeight:"28px",fontWeight:"400"}],"label-lg":["14px",{lineHeight:"18px",letterSpacing:"0.08em",fontWeight:"600"}],"body-sm":["12px",{lineHeight:"18px",fontWeight:"400"}],"label-md":["11px",{lineHeight:"14px",letterSpacing:"0.12em",fontWeight:"600"}],"body-lg":["16px",{lineHeight:"24px",fontWeight:"400"}],"body-md":["14px",{lineHeight:"20px",fontWeight:"400"}],"label-sm":["9px",{lineHeight:"12px",letterSpacing:"0.16em",fontWeight:"700"}]}}}};</script></head><body class="bg-surface-container-lowest font-body-md text-body-md text-on-surface min-h-screen relative selection:bg-primary-container selection:text-on-primary-container">
+<main class="relative w-full min-h-screen bg-surface-container-lowest">
+<div class="fixed inset-0 pointer-events-none z-0 bg-[radial-gradient(circle_at_80%_20%,rgba(238,152,0,0.06),transparent_50%),radial-gradient(circle_at_20%_80%,rgba(124,58,237,0.08),transparent_55%)]"></div>
+<div class="relative z-10 w-full px-gutter-desktop py-space-lg pb-24">
+<div class="flex flex-col w-full">
+<!-- Top Global Hero Header -->
+<header class="w-full bg-surface-container-lowest/90 backdrop-blur-md px-gutter py-space-md shadow-md mb-space-lg">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Autonomous Multi-Agent Engine</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight bg-gradient-to-r from-secondary via-secondary-fixed to-on-surface bg-clip-text text-transparent">
+          DUBAI AI TRAVEL PLANNER
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+          Autonomous Multi-Agent Itinerary Orchestrator powered by LangGraph, Groq oss-120b, and Ollama nemotron-3-ultra.
+        </p>
+</div>
+<!-- Quick Orchestrator Engine Mode Switcher -->
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant px-space-xs uppercase">Engine State:</span>
+<button class="px-space-sm py-space-xs font-label-sm text-label-sm uppercase bg-primary-container text-on-primary-container font-semibold transition-all" id="btn-state-itinerary" onclick="setEngineState('itinerary')">
+          Itinerary View
+        </button>
+<button class="px-space-sm py-space-xs font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface bg-surface-container transition-all" id="btn-state-empty" onclick="setEngineState('empty')">
+          Empty
+        </button>
+<button class="px-space-sm py-space-xs font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface bg-surface-container transition-all" id="btn-state-reject" onclick="setEngineState('rejection')">
+          Circuit Rejection
+        </button>
+</div>
+</div>
+</header>
+<!-- Component 3: Telemetry Bar -->
+<section class="w-full bg-surface-container-low p-space-sm mb-space-lg">
+<div class="grid grid-cols-2 md:grid-cols-5 gap-space-sm items-center">
+<!-- Status Badge -->
+<div class="flex flex-col bg-surface-container px-space-sm py-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Orchestrator Status</span>
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 bg-secondary" id="telemetry-ping"></span>
+<span class="font-label-md text-label-md text-secondary font-bold uppercase truncate" id="telemetry-status-text">Approved (Round 0)</span>
+</div>
+</div>
+<!-- Execution Latency -->
+<div class="flex flex-col bg-surface-container px-space-sm py-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Execution Latency</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">12.4s (Groq LPU)</span>
+</div>
+<!-- Revision Cycles -->
+<div class="flex flex-col bg-surface-container px-space-sm py-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Revision Cycles</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold" id="telemetry-revisions">0 / 3 Max Limits</span>
+</div>
+<!-- Operational API Cost -->
+<div class="flex flex-col bg-surface-container px-space-sm py-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Cost per Run</span>
+<span class="font-label-md text-label-md text-secondary font-bold">$0.00 (Zero-Cost LPUs)</span>
+</div>
+<!-- Data Sources Connected -->
+<div class="flex flex-col bg-surface-container px-space-sm py-space-xs col-span-2 md:col-span-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Data Grounding</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">SQLite (196 Venues, 35 Metro) + Open-Meteo</span>
+</div>
+</div>
+</section>
+<!-- Main Planner Layout: Sidebar + Canvas Workspace -->
+<div class="flex flex-col lg:flex-row gap-space-lg w-full items-start">
+<!-- COMPONENT 1: Collapsible Sidebar Controls -->
+<aside class="w-full lg:w-80 shrink-0 bg-surface-container-low transition-all duration-300 relative flex flex-col p-space-md" id="planner-sidebar">
+<!-- Collapse Toggle Button (Desktop & Tablet) -->
+<button class="hidden lg:flex absolute -right-3 top-4 w-7 h-7 bg-primary-container text-on-primary-container items-center justify-center shadow-lg hover:brightness-110 z-30" id="sidebar-toggle-btn" onclick="toggleSidebarWidth()" title="Toggle planner sidebar">
+<span class="material-symbols-outlined text-[18px]" id="toggle-chevron">chevron_left</span>
+</button>
+<!-- Full Controls Container -->
+<div class="flex flex-col gap-space-md" id="sidebar-expanded-content">
+<!-- Header -->
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">tune</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface tracking-wide uppercase">Trip Planner Controls</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Configure parameters or choose a curated travel persona.</p>
+</div>
+<!-- Curated Presets Grid (2x2) -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold">Curated Fast Presets</span>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="p-space-xs bg-surface-container text-left hover:bg-surface-container-high transition-colors group" onclick="applyPreset('heritage')">
+<div class="font-label-md text-label-md text-on-surface font-bold">🏛️ 4D Heritage</div>
+<div class="font-body-sm text-body-sm text-secondary group-hover:underline">AED 2,800</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant truncate">Old Dubai & Downtown</div>
+</button>
+<button class="p-space-xs bg-surface-container text-left hover:bg-surface-container-high transition-colors group" onclick="applyPreset('modern')">
+<div class="font-label-md text-label-md text-on-surface font-bold">🏙️ 3D Modern</div>
+<div class="font-body-sm text-body-sm text-secondary group-hover:underline">AED 4,500</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant truncate">Downtown & Marina</div>
+</button>
+<button class="p-space-xs bg-surface-container text-left hover:bg-surface-container-high transition-colors group" onclick="applyPreset('complete')">
+<div class="font-label-md text-label-md text-on-surface font-bold">🐪 5D Complete</div>
+<div class="font-body-sm text-body-sm text-secondary group-hover:underline">AED 8,500</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant truncate">All 5 Districts & Dune</div>
+</button>
+<button class="p-space-xs bg-surface-container text-left hover:bg-surface-container-high transition-colors group" onclick="applyPreset('stopover')">
+<div class="font-label-md text-label-md text-on-surface font-bold">⏱️ 2D Stopover</div>
+<div class="font-body-sm text-body-sm text-secondary group-hover:underline">AED 1,500</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant truncate">Creek & Landmarks</div>
+</button>
+</div>
+</div>
+<!-- Natural Language Prompt -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold" for="user-prompt-input">Natural Language Directive</label>
+<textarea class="w-full bg-surface-container-lowest p-space-sm font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:outline-none resize-none" id="user-prompt-input" rows="3">Plan a 3-day cultural and foodie trip to Dubai with AED 4,500 budget in February</textarea>
+</div>
+<!-- Duration Slider -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex justify-between items-center">
+<label class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold" for="duration-slider">Trip Duration</label>
+<span class="px-space-xs py-0.5 bg-primary-container text-on-primary-container font-label-md text-label-md font-bold" id="duration-badge">3 Days</span>
+</div>
+<input class="w-full accent-primary-container cursor-pointer" id="duration-slider" max="7" min="1" oninput="handleDurationChange(this.value)" type="range" value="3"/>
+<div class="flex justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>1 Day</span>
+<span>4 Days</span>
+<span>7 Days</span>
+</div>
+</div>
+<!-- Accommodation Tier Select -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold" for="hotel-tier-select">Accommodation Tier</label>
+<select class="w-full bg-surface-container-lowest p-space-sm font-body-sm text-body-sm text-on-surface focus:outline-none" id="hotel-tier-select" onchange="recalculateFeasibility()">
+<option value="210">Budget (~AED 210/night in Deira)</option>
+<option selected="" value="650">Midscale (~AED 650/night in Downtown)</option>
+<option value="1750">Luxury (~AED 1,750/night in Marina)</option>
+</select>
+</div>
+<!-- Total Budget Input -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold" for="budget-input">Total Budget Target (AED)</label>
+<div class="flex items-center bg-surface-container-lowest px-space-sm">
+<span class="font-label-md text-label-md text-secondary font-bold pr-space-xs">AED</span>
+<input class="w-full bg-transparent py-space-sm font-headline-sm text-headline-sm text-on-surface focus:outline-none" id="budget-input" oninput="recalculateFeasibility()" step="250" type="number" value="4500"/>
+</div>
+</div>
+<!-- Feasibility Validation Tag / Alert -->
+<div class="p-space-sm bg-surface-container" id="feasibility-container">
+<!-- Dynamically populated by recalculateFeasibility() -->
+<div class="flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="font-label-sm text-label-sm font-bold uppercase">Budget Sufficient (Min req: AED 1,540)</span>
+</div>
+</div>
+<!-- Travel Month Select -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold" for="month-select">Travel Month (Solar Season)</label>
+<select class="w-full bg-surface-container-lowest p-space-sm font-body-sm text-body-sm text-on-surface focus:outline-none" id="month-select" onchange="handleMonthChange(this.value)">
+<option value="1">1 - January (Pleasant & Cool)</option>
+<option selected="" value="2">2 - February (Pleasant 26°C)</option>
+<option value="3">3 - March (Warm & Balmy)</option>
+<option value="4">4 - April (Rising Heat)</option>
+<option value="5">5 - May (Extreme Summer 38°C)</option>
+<option value="6">6 - June (Extreme Summer 41°C)</option>
+<option value="7">7 - July (Extreme Summer 43°C)</option>
+<option value="8">8 - August (Peak Humidity & Heat)</option>
+<option value="9">9 - September (Late Summer 39°C)</option>
+<option value="10">10 - October (Comfortable Season)</option>
+<option value="11">11 - November (Optimal Tourism)</option>
+<option value="12">12 - December (Pleasant Cool)</option>
+</select>
+</div>
+<!-- Dynamic Climate Advisory Card -->
+<div class="p-space-sm bg-surface-container" id="climate-card">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">sunny</span>
+<span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">Pleasant Solar Cycle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Average high 26°C - 28°C. Perfect for Creekside abra transfers, walking tours, and rooftop lounges.</p>
+</div>
+<!-- Traveler Interests Multi-Select Chips -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold">Traveler Persona & Interests</span>
+<div class="flex flex-wrap gap-space-xs" id="interests-group">
+<button class="px-space-sm py-1 bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase font-semibold" data-interest="culture" onclick="toggleInterest(this)">Culture</button>
+<button class="px-space-sm py-1 bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase" data-interest="beach" onclick="toggleInterest(this)">Beach</button>
+<button class="px-space-sm py-1 bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase" data-interest="adventure" onclick="toggleInterest(this)">Adventure</button>
+<button class="px-space-sm py-1 bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase font-semibold" data-interest="views" onclick="toggleInterest(this)">Views</button>
+<button class="px-space-sm py-1 bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase" data-interest="shopping" onclick="toggleInterest(this)">Shopping</button>
+<button class="px-space-sm py-1 bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase" data-interest="nature" onclick="toggleInterest(this)">Nature</button>
+<button class="px-space-sm py-1 bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase" data-interest="free" onclick="toggleInterest(this)">Free Gems</button>
+</div>
+</div>
+<!-- Generate CTA Button -->
+<button class="w-full py-space-sm mt-space-sm bg-gradient-to-r from-secondary-container to-secondary text-on-secondary font-headline-sm text-headline-sm uppercase font-bold tracking-wider hover:brightness-110 active:scale-[0.99] transition-all flex items-center justify-center gap-space-xs shadow-lg" onclick="triggerGenerate()">
+<span class="material-symbols-outlined text-[20px]">rocket_launch</span>
+          Generate Dubai Itinerary
+        </button>
+</div>
+<!-- Collapsed Minimal Representation (Hidden unless collapsed) -->
+<div class="hidden flex-col items-center gap-space-md py-space-md" id="sidebar-collapsed-content">
+<button class="p-space-xs text-secondary hover:text-on-surface" onclick="toggleSidebarWidth()">
+<span class="material-symbols-outlined text-[24px]">tune</span>
+</button>
+<div class="[writing-mode:vertical-rl] font-label-sm text-label-sm text-on-surface-variant tracking-widest uppercase py-space-md">
+          PLANNER CONTROLS
+        </div>
+<button class="p-space-xs text-primary hover:text-on-surface" onclick="toggleSidebarWidth()">
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</button>
+</div>
+</aside>
+<!-- RIGHT MAIN WORKSPACE: Dynamic State Container -->
+<main class="flex-1 w-full min-w-0">
+<!-- ==================== STATE A: EMPTY STATE ==================== -->
+<div class="hidden flex flex-col items-center justify-center p-space-2xl bg-surface-container-low text-center min-h-[500px]" id="view-empty">
+<div class="w-20 h-20 bg-surface-container flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-secondary text-[48px]">explore</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs uppercase tracking-wide">
+          Awaiting Autonomous Synthesis
+        </h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg mb-space-lg">
+          👈 Use the sidebar configuration panel to customize your travel parameters, or click one of the quick presets to generate a complete Dubai itinerary.
+        </p>
+<div class="flex flex-wrap justify-center gap-space-sm">
+<button class="px-space-md py-space-xs bg-surface-container hover:bg-surface-container-high font-label-md text-label-md uppercase text-secondary" onclick="applyPreset('heritage')">
+            🏛️ Heritage 4D
+          </button>
+<button class="px-space-md py-space-xs bg-surface-container hover:bg-surface-container-high font-label-md text-label-md uppercase text-secondary" onclick="applyPreset('modern')">
+            🏙️ Modern 3D
+          </button>
+<button class="px-space-md py-space-xs bg-surface-container hover:bg-surface-container-high font-label-md text-label-md uppercase text-secondary" onclick="applyPreset('complete')">
+            🐪 Complete 5D
+          </button>
+</div>
+</div>
+<!-- ==================== STATE B: REJECTION CARD ==================== -->
+<div class="hidden flex flex-col p-space-lg bg-surface-container-low" id="view-rejection">
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 bg-error-container text-on-error-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">block</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-error uppercase tracking-wide">
+              Request Rejected by Orchestrator Circuit Breaker
+            </h3>
+<p class="font-body-md text-body-md text-on-surface" id="rejection-reason">
+              Insufficient budget baseline for requested Luxury Tier over 5 Days. Required: AED 7,400 | Provided: AED 3,200.
+            </p>
+<div class="bg-surface-container p-space-sm mt-space-xs">
+<span class="font-label-sm text-label-sm uppercase text-secondary font-bold">Municipal Baseline Guideline</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Dubai Department of Economy & Tourism mandates municipality tourism dirham fees (AED 15-20/night), 5% VAT, and peak season peak surge surcharges. Midscale & Luxury thresholds cannot be safely guaranteed below strict viability floors.
+              </p>
+</div>
+<!-- Expandable JSON Viewer -->
+<div class="mt-space-md">
+<button class="flex items-center gap-space-xs font-label-md text-label-md uppercase text-primary font-bold hover:underline" onclick="toggleAuditLog()">
+<span class="material-symbols-outlined text-[16px]">terminal</span>
+<span id="audit-toggle-text">🔍 Inspect Circuit Breaker Audit Log (JSON)</span>
+</button>
+<pre class="hidden mt-space-sm p-space-sm bg-surface-container-lowest font-body-sm text-body-sm text-on-surface overflow-x-auto text-left" id="audit-log-pre">{
+  "circuit_breaker": "ACTIVE_REJECTION",
+  "rule_triggered": "RULE_BUDGET_DEFICIT_RATIO_EXCEEDED",
+  "audit_timestamp": "2025-02-14T02:44:11.892Z",
+  "requested_tier": "Luxury (Marina / Downtown)",
+  "minimum_required_aed": 7400,
+  "client_supplied_aed": 3200,
+  "deficit_aed": -4200,
+  "action_suggested": "SET_BUDGET_OR_DOWNGRADE_TIER",
+  "agent_signature": "Ollama_Nemotron_3_Ultra_SafetyGuard"
+}
+              </pre>
+</div>
+<div class="flex gap-space-sm mt-space-md">
+<button class="px-space-md py-space-sm bg-primary-container text-on-primary-container font-label-md text-label-md uppercase font-bold hover:brightness-110" onclick="autoFixRejectionBudget()">
+                ⚡ Auto-Correct Budget to AED 7,400 & Re-run
+              </button>
+<button class="px-space-md py-space-sm bg-surface-container text-on-surface font-label-md text-label-md uppercase hover:bg-surface-container-high" onclick="setEngineState('itinerary')">
+                Dismiss Error
+              </button>
+</div>
+</div>
+</div>
+</div>
+<!-- ==================== STATE C: ITINERARY DASHBOARD ==================== -->
+<div class="flex flex-col gap-space-md w-full" id="view-itinerary">
+<!-- Tab Navigation Bar -->
+<nav class="flex items-center gap-space-xs bg-surface-container-low p-space-xs overflow-x-auto">
+<button class="px-space-md py-space-sm font-label-md text-label-md uppercase font-bold flex items-center gap-space-xs bg-primary-container text-on-primary-container transition-all" id="nav-tab-timeline" onclick="switchTab('timeline')">
+<span class="material-symbols-outlined text-[18px]">calendar_month</span>
+            Itinerary Timeline
+          </button>
+<button class="px-space-md py-space-sm font-label-md text-label-md uppercase font-bold flex items-center gap-space-xs bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" id="nav-tab-map" onclick="switchTab('map')">
+<span class="material-symbols-outlined text-[18px]">map</span>
+            Map & Metro Network
+          </button>
+<button class="px-space-md py-space-sm font-label-md text-label-md uppercase font-bold flex items-center gap-space-xs bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" id="nav-tab-financial" onclick="switchTab('financial')">
+<span class="material-symbols-outlined text-[18px]">account_balance_wallet</span>
+            Financial Breakdown
+          </button>
+<button class="px-space-md py-space-sm font-label-md text-label-md uppercase font-bold flex items-center gap-space-xs bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" id="nav-tab-trace" onclick="switchTab('trace')">
+<span class="material-symbols-outlined text-[18px]">neurology</span>
+            Agent Observability Trace
+          </button>
+</nav>
+<!-- ==================== TAB 1: TIMELINE ==================== -->
+<div class="flex flex-col gap-space-md w-full" id="tab-content-timeline">
+<!-- Narrative Summary Banner -->
+<div class="p-space-md bg-surface-container-low flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase text-secondary font-bold">Synthesized 3-Day Narrative</span>
+<p class="font-headline-sm text-headline-sm text-on-surface mt-0.5">
+                "A curated 3-day expedition balancing futuristic Downtown landmarks with traditional Creekside cultural gems and Marina coastal dining."
+              </p>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<div class="text-right">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Total Planned Spend</div>
+<div class="font-headline-sm text-headline-sm text-secondary font-bold">AED 3,890</div>
+</div>
+</div>
+</div>
+<!-- DAY 1 ACCORDION -->
+<div class="bg-surface-container-low flex flex-col">
+<!-- Accordion Header -->
+<button class="p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm text-left hover:bg-surface-container transition-colors" onclick="toggleDayAccordion('day1-body', 'day1-chevron')">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 bg-secondary flex items-center justify-center text-on-secondary font-headline-sm text-headline-sm font-bold">
+                  01
+                </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase">Day 1: Historic Al Fahidi & Creek Heritage</h3>
+<div class="flex flex-wrap items-center gap-space-xs mt-1">
+<span class="px-space-xs py-0.5 bg-surface-container text-secondary font-label-sm text-label-sm uppercase font-bold">Old Dubai & Creek</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">🏨 Hotel: Deira Heritage District</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">• Spend: AED 1,180</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold hidden sm:inline">3 Venues | 2 RTA Transits</span>
+<span class="material-symbols-outlined text-secondary text-[24px] transition-transform duration-200" id="day1-chevron">expand_less</span>
+</div>
+</button>
+<!-- Accordion Body -->
+<div class="p-space-md pt-0 flex flex-col gap-space-sm" id="day1-body">
+<!-- Mobility Briefing -->
+<div class="p-space-sm bg-surface-container flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">commute</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+<strong class="text-secondary font-bold">Mobility Briefing:</strong> RTA Green Line connection via Al Ras Metro Station + Gold Souk Traditional Abra crossing (AED 2.00).
+                </p>
+</div>
+<!-- Activity 1 -->
+<div class="bg-surface-container p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[18px]">account_balance</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 bg-surface-container-highest text-on-surface font-label-sm text-label-sm uppercase">🌅 Morning • 09:30</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Heritage & Culture</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1">Al Fahidi Historical Neighbourhood & Coffee Museum</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Explore labyrinth wind-tower alleys, traditional gypsum architecture, and authentic Arabic Gahwa tasting.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Duration</div>
+<div class="font-label-md text-label-md text-on-surface font-bold">120 Mins</div>
+</div>
+<div class="px-space-sm py-1 bg-surface-container-high text-secondary font-label-md text-label-md uppercase font-bold">
+                    FREE ENTRY
+                  </div>
+</div>
+</div>
+<!-- Transit Step 1 -->
+<div class="ml-space-md p-space-xs bg-surface-container-lowest flex items-center justify-between text-on-surface-variant">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[16px]">directions_boat</span>
+<span class="font-body-sm text-body-sm text-on-surface">Bur Dubai Abra Station ➔ Deira Old Souk (0.45 km Abra Cruise)</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm">8 mins</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">AED 2.00 Cash</span>
+</div>
+</div>
+<!-- Activity 2 -->
+<div class="bg-surface-container p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[18px]">storefront</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 bg-surface-container-highest text-on-surface font-label-sm text-label-sm uppercase">☀️ Afternoon • 13:00</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Spices & Culinary</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1">Spice Souk & Arabian Tea House Lunch</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Saffron, cardamom tastings followed by traditional Emirati chicken machboos and lime mint nectar.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Duration</div>
+<div class="font-label-md text-label-md text-on-surface font-bold">90 Mins</div>
+</div>
+<div class="px-space-sm py-1 bg-surface-container-high text-on-surface font-label-md text-label-md uppercase font-bold">
+                    AED 160
+                  </div>
+</div>
+</div>
+<!-- Transit Step 2 -->
+<div class="ml-space-md p-space-xs bg-surface-container-lowest flex items-center justify-between text-on-surface-variant">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[16px]">directions_subway</span>
+<span class="font-body-sm text-body-sm text-on-surface">Al Ras Metro (Green) ➔ Union Interchange (Red Line transfer)</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm">18 mins</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">AED 5.00 Nol</span>
+</div>
+</div>
+<!-- Activity 3 -->
+<div class="bg-surface-container p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[18px]">dinner_dining</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 bg-surface-container-highest text-on-surface font-label-sm text-label-sm uppercase">🌙 Evening • 19:30</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase">Creekside Nocturne</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1">Al Seef Waterfront Dhow Promenade & Dinner</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Gentle stroll across stone paved alleyways with dinner overlooking historic wooden cargo dhows.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Duration</div>
+<div class="font-label-md text-label-md text-on-surface font-bold">150 Mins</div>
+</div>
+<div class="px-space-sm py-1 bg-surface-container-high text-on-surface font-label-md text-label-md uppercase font-bold">
+                    AED 240
+                  </div>
+</div>
+</div>
+</div>
+</div>
+<!-- DAY 2 ACCORDION -->
+<div class="bg-surface-container-low flex flex-col">
+<!-- Accordion Header -->
+<button class="p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm text-left hover:bg-surface-container transition-colors" onclick="toggleDayAccordion('day2-body', 'day2-chevron')">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 bg-primary-container flex items-center justify-center text-on-primary font-headline-sm text-headline-sm font-bold">
+                  02
+                </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase">Day 2: Downtown Grandeur & Architectural Pinnacles</h3>
+<div class="flex flex-wrap items-center gap-space-xs mt-1">
+<span class="px-space-xs py-0.5 bg-surface-container text-primary font-label-sm text-label-sm uppercase font-bold">Downtown & Business Bay</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">🏨 Hotel: Downtown Midscale</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">• Spend: AED 1,450</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold hidden sm:inline">3 Venues | 2 RTA Transits</span>
+<span class="material-symbols-outlined text-primary text-[24px] transition-transform duration-200" id="day2-chevron">expand_less</span>
+</div>
+</button>
+<!-- Accordion Body -->
+<div class="p-space-md pt-0 flex flex-col gap-space-sm" id="day2-body">
+<!-- Mobility Briefing -->
+<div class="p-space-sm bg-surface-container flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">train</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+<strong class="text-primary font-bold">Mobility Briefing:</strong> RTA Red Line direct connection via Burj Khalifa/Dubai Mall Station + Air-conditioned traveler travellator walkway.
+                </p>
+</div>
+<!-- Activity 1 -->
+<div class="bg-surface-container p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 bg-surface-container-high flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[18px]">cloud_upload</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 bg-surface-container-highest text-on-surface font-label-sm text-label-sm uppercase">🌅 Morning • 10:00</span>
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase">Architectural Icon</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1">Burj Khalifa Observation Deck (Levels 124 & 125)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">High-speed double-deck elevator ride ascending to 456 meters with 360-degree desert & Gulf panoramas.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Duration</div>
+<div class="font-label-md text-label-md text-on-surface font-bold">90 Mins</div>
+</div>
+<div class="px-space-sm py-1 bg-surface-container-high text-on-surface font-label-md text-label-md uppercase font-bold">
+                    AED 179
+                  </div>
+</div>
+</div>
+<!-- Transit Step -->
+<div class="ml-space-md p-space-xs bg-surface-container-lowest flex items-center justify-between text-on-surface-variant">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[16px]">directions_walk</span>
+<span class="font-body-sm text-body-sm text-on-surface">Burj Khalifa Deck ➔ Souk Al Bahar Pedestrian Bridge (0.6 km)</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm">10 mins</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">FREE</span>
+</div>
+</div>
+<!-- Activity 2 -->
+<div class="bg-surface-container p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 bg-surface-container-high flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[18px]">water_drop</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 bg-surface-container-highest text-on-surface font-label-sm text-label-sm uppercase">🌙 Evening • 18:30</span>
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase">Choreography & Lights</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1">Dubai Fountain Spectacle & Time Out Market Tasting</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">World-class choreographed water show with artisanal dining terrace facing the illuminated tower.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Duration</div>
+<div class="font-label-md text-label-md text-on-surface font-bold">120 Mins</div>
+</div>
+<div class="px-space-sm py-1 bg-surface-container-high text-on-surface font-label-md text-label-md uppercase font-bold">
+                    AED 210
+                  </div>
+</div>
+</div>
+</div>
+</div>
+<!-- DAY 3 ACCORDION -->
+<div class="bg-surface-container-low flex flex-col">
+<!-- Accordion Header -->
+<button class="p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm text-left hover:bg-surface-container transition-colors" onclick="toggleDayAccordion('day3-body', 'day3-chevron')">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 bg-tertiary-container flex items-center justify-center text-on-tertiary font-headline-sm text-headline-sm font-bold">
+                  03
+                </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase">Day 3: Dubai Marina & Coastal Sunset</h3>
+<div class="flex flex-wrap items-center gap-space-xs mt-1">
+<span class="px-space-xs py-0.5 bg-surface-container text-tertiary font-label-sm text-label-sm uppercase font-bold">Marina & JBR Beach</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">🏨 Hotel: Marina Waterfront</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">• Spend: AED 1,260</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-tertiary uppercase font-bold hidden sm:inline">2 Venues | 1 Tram Step</span>
+<span class="material-symbols-outlined text-tertiary text-[24px] transition-transform duration-200" id="day3-chevron">expand_less</span>
+</div>
+</button>
+<!-- Accordion Body -->
+<div class="p-space-md pt-0 flex flex-col gap-space-sm" id="day3-body">
+<div class="p-space-sm bg-surface-container flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[20px]">tram</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+<strong class="text-tertiary font-bold">Mobility Briefing:</strong> Dubai Tram integration between Sobha Realty Metro Station and Jumeirah Beach Residence 2 station.
+                </p>
+</div>
+<!-- Activity 1 -->
+<div class="bg-surface-container p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 bg-surface-container-high flex items-center justify-center text-tertiary shrink-0">
+<span class="material-symbols-outlined text-[18px]">sailing</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 bg-surface-container-highest text-on-surface font-label-sm text-label-sm uppercase">☀️ Afternoon • 15:30</span>
+<span class="font-label-sm text-label-sm text-tertiary font-bold uppercase">Marina Coastal Cruise</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1">Marina Canal Cruise towards Bluewaters & Ain Dubai</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Cruising through Dubai Marina's supertall towers, passing JBR beach toward the giant observation wheel.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<div class="text-right">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Duration</div>
+<div class="font-label-md text-label-md text-on-surface font-bold">120 Mins</div>
+</div>
+<div class="px-space-sm py-1 bg-surface-container-high text-on-surface font-label-md text-label-md uppercase font-bold">
+                    AED 195
+                  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ==================== TAB 2: MAP & METRO ==================== -->
+<div class="hidden flex-col gap-space-md w-full" id="tab-content-map">
+<div class="p-space-md bg-surface-container-low flex flex-col md:flex-row justify-between items-start md:items-center gap-space-sm">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Dubai Integrated Metro & Route Cartography</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Live coordinate mapping across Red Line (Rashidiya ➔ Expo 2020) and Green Line (Creek ➔ Etisalat) with 3-day venue waypoints.</p>
+</div>
+<div class="flex items-center gap-space-md bg-surface-container px-space-sm py-space-xs">
+<div class="flex items-center gap-1.5"><span class="w-3 h-1 bg-error"></span><span class="font-label-sm text-label-sm text-on-surface uppercase">Red Line</span></div>
+<div class="flex items-center gap-1.5"><span class="w-3 h-1 bg-secondary"></span><span class="font-label-sm text-label-sm text-on-surface uppercase">Green Line</span></div>
+<div class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-primary"></span><span class="font-label-sm text-label-sm text-on-surface uppercase">Venues</span></div>
+</div>
+</div>
+<!-- Interactive Vector Metro Map Canvas -->
+<div class="relative w-full bg-surface-container-low p-space-md overflow-hidden min-h-[440px] flex items-center justify-center">
+<svg class="w-full h-auto max-h-[500px] select-none" viewbox="0 0 900 420">
+<!-- Gulf Coastline subtle arc -->
+<path class="text-surface-container-high" d="M 50,400 Q 300,280 850,90" fill="none" stroke="currentColor" stroke-width="8"></path>
+<text class="text-surface-variant font-label-sm text-[10px] uppercase tracking-widest font-bold" fill="currentColor" x="180" y="360">Arabian Gulf Waterway</text>
+<text class="text-surface-variant font-label-sm text-[10px] uppercase tracking-widest font-bold" fill="currentColor" x="680" y="240">Dubai Creek Estuary</text>
+<!-- Dubai Creek Waterway Shape -->
+<path class="text-surface-container-high" d="M 680,260 Q 640,180 720,100" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="24"></path>
+<!-- Palm Jumeirah abstract geometric marker -->
+<path class="text-surface-container" d="M 220,290 L 190,260 L 230,240 L 200,220" fill="none" stroke="currentColor" stroke-width="4"></path>
+<text class="text-on-surface-variant font-label-sm text-[9px] uppercase" fill="currentColor" x="150" y="240">Palm Jumeirah</text>
+<!-- METRO RED LINE -->
+<polyline fill="none" points="100,380 200,330 380,240 520,180 620,140 760,80 860,40" stroke="#EF4444" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"></polyline>
+<!-- METRO GREEN LINE -->
+<polyline fill="none" points="630,200 660,160 700,120 740,110 790,120 830,150" stroke="#10B981" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"></polyline>
+<!-- Union Interchange Point -->
+<circle cx="620" cy="140" fill="#0A0D14" r="7" stroke="#D2BBFF" stroke-width="3"></circle>
+<text class="text-on-surface font-label-sm text-[10px] font-bold" fill="currentColor" x="635" y="145">Union Interchange</text>
+<!-- Red Line Stations Points -->
+<circle cx="200" cy="330" fill="#EF4444" r="4"></circle>
+<text class="text-on-surface-variant font-label-sm text-[9px]" fill="currentColor" x="160" y="350">DMCC / Marina</text>
+<circle cx="380" cy="240" fill="#EF4444" r="4"></circle>
+<text class="text-on-surface-variant font-label-sm text-[9px]" fill="currentColor" x="350" y="260">Mall of the Emirates</text>
+<circle cx="520" cy="180" fill="#EF4444" r="4"></circle>
+<text class="text-on-surface-variant font-label-sm text-[9px]" fill="currentColor" x="490" y="200">Burj Khalifa / Mall</text>
+<circle cx="760" cy="80" fill="#EF4444" r="4"></circle>
+<text class="text-on-surface-variant font-label-sm text-[9px]" fill="currentColor" x="770" y="85">DXB Airport T3</text>
+<!-- Green Line Station Points -->
+<circle cx="660" cy="160" fill="#10B981" r="4"></circle>
+<text class="text-on-surface-variant font-label-sm text-[9px]" fill="currentColor" x="670" y="175">Al Ras (Creek)</text>
+<!-- DAY 1 VENUE PIN (Interactive click) -->
+<g class="cursor-pointer group" onclick="showPinDetail('Al Fahidi & Souks', 'Day 1 Heritage', 'Al Ras Abra Crossing', 'AED 160')">
+<circle class="animate-pulse" cx="665" cy="150" fill="#EE9800" r="9"></circle>
+<circle cx="665" cy="150" fill="#0A0D14" r="5"></circle>
+<text class="font-label-sm text-[10px] font-bold" fill="#EE9800" text-anchor="middle" x="665" y="132">D1: Heritage</text>
+</g>
+<!-- DAY 2 VENUE PIN -->
+<g class="cursor-pointer group" onclick="showPinDetail('Burj Khalifa & Downtown', 'Day 2 Iconic', 'Burj Khalifa Metro Stn', 'AED 389')">
+<circle class="animate-pulse" cx="525" cy="170" fill="#7C3AED" r="9"></circle>
+<circle cx="525" cy="170" fill="#0A0D14" r="5"></circle>
+<text class="font-label-sm text-[10px] font-bold" fill="#D2BBFF" text-anchor="middle" x="525" y="152">D2: Downtown</text>
+</g>
+<!-- DAY 3 VENUE PIN -->
+<g class="cursor-pointer group" onclick="showPinDetail('Dubai Marina & JBR', 'Day 3 Coastal', 'Sobha Realty Tram', 'AED 195')">
+<circle class="animate-pulse" cx="210" cy="320" fill="#185CE4" r="9"></circle>
+<circle cx="210" cy="320" fill="#0A0D14" r="5"></circle>
+<text class="font-label-sm text-[10px] font-bold" fill="#B4C5FF" text-anchor="middle" x="210" y="302">D3: Marina</text>
+</g>
+<!-- Animated Route Connections -->
+<path d="M 665,150 Q 600,160 525,170" fill="none" stroke="#EE9800" stroke-dasharray="4 4" stroke-width="2"></path>
+<path d="M 525,170 Q 360,260 210,320" fill="none" stroke="#7C3AED" stroke-dasharray="4 4" stroke-width="2"></path>
+</svg>
+<!-- Interactive Pin Popup Modal / Overlay -->
+<div class="absolute bottom-4 right-4 bg-surface-container p-space-sm max-w-xs shadow-xl hidden" id="map-pin-modal">
+<div class="flex items-center justify-between gap-space-sm">
+<span class="px-space-xs py-0.5 bg-secondary text-on-secondary font-label-sm text-label-sm font-bold uppercase" id="pin-day-badge">DAY 1</span>
+<button class="text-on-surface-variant hover:text-on-surface" onclick="document.getElementById('map-pin-modal').classList.add('hidden')">
+<span class="material-symbols-outlined text-[16px]">close</span>
+</button>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1" id="pin-title">Al Fahidi Quarter</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5" id="pin-sub">Green Line Metro Al Ras Station</p>
+<div class="flex justify-between items-center mt-space-sm pt-space-xs bg-surface-container-high px-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Est. Admission:</span>
+<span class="font-label-md text-label-md text-secondary font-bold" id="pin-spend">AED 160</span>
+</div>
+</div>
+</div>
+<!-- Metro Line Station Ledger Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="bg-surface-container-low p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-error uppercase">Red Line Main Nodes</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Fare Zone 1, 2, 6</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Key Interchanges: Burj Khalifa, Emirates Towers, Sobha Realty, DMCC, Expo 2020.</p>
+</div>
+<div class="bg-surface-container-low p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-secondary uppercase">Green Line Main Nodes</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Fare Zone 5, 6</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Key Heritage Interchanges: Al Fahidi, Al Ras, Gold Souk, Creek Station Abra link.</p>
+</div>
+</div>
+</div>
+<!-- ==================== TAB 3: FINANCIAL BREAKDOWN ==================== -->
+<div class="hidden flex-col gap-space-md w-full" id="tab-content-financial">
+<!-- 4 Metric Cards Grid -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-sm">
+<div class="bg-surface-container-low p-space-md flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Total Budget Target</span>
+<span class="font-headline-md text-headline-md text-on-surface font-bold mt-1">AED 4,500</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Baseline input limit</span>
+</div>
+<div class="bg-surface-container-low p-space-md flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Grand Total Cost</span>
+<span class="font-headline-md text-headline-md text-secondary font-bold mt-1">AED 3,890</span>
+<span class="font-body-sm text-body-sm text-secondary">Actual calculated itinerary</span>
+</div>
+<div class="bg-surface-container-low p-space-md flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Remaining Buffer</span>
+<span class="font-headline-md text-headline-md text-primary font-bold mt-1">+AED 610</span>
+<span class="font-body-sm text-body-sm text-primary">Contingency margin</span>
+</div>
+<div class="bg-surface-container-low p-space-md flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Compliance Status</span>
+<div class="flex items-center gap-space-xs mt-1">
+<span class="material-symbols-outlined text-secondary text-[22px]">check_circle</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold uppercase">Under Budget</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Zero policy breaches</span>
+</div>
+</div>
+<!-- Donut Allocation & Gauge Section -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Category Expense Donut Chart -->
+<div class="bg-surface-container-low p-space-md flex flex-col gap-space-sm">
+<span class="font-headline-sm text-headline-sm text-on-surface uppercase">Category Expense Allocation</span>
+<div class="flex flex-col sm:flex-row items-center gap-space-md pt-space-xs">
+<!-- Inline SVG Donut Chart -->
+<div class="relative w-40 h-40 shrink-0">
+<svg class="w-full h-full rotate-[-90deg]" viewbox="0 0 36 36">
+<!-- Base ring -->
+<circle class="text-surface-container-high" cx="18" cy="18" fill="none" r="15.915" stroke="currentColor" stroke-width="3.5"></circle>
+<!-- Accommodations: 48% (#F59E0B) -->
+<circle cx="18" cy="18" fill="none" r="15.915" stroke="#EE9800" stroke-dasharray="48 52" stroke-dashoffset="0" stroke-width="3.8"></circle>
+<!-- Dining: 24% (#10B981) -->
+<circle cx="18" cy="18" fill="none" r="15.915" stroke="#10B981" stroke-dasharray="24 76" stroke-dashoffset="-48" stroke-width="3.8"></circle>
+<!-- Attractions: 18% (#3B82F6) -->
+<circle cx="18" cy="18" fill="none" r="15.915" stroke="#3B82F6" stroke-dasharray="18 82" stroke-dashoffset="-72" stroke-width="3.8"></circle>
+<!-- Transit: 10% (#8B5CF6) -->
+<circle cx="18" cy="18" fill="none" r="15.915" stroke="#8B5CF6" stroke-dasharray="10 90" stroke-dashoffset="-90" stroke-width="3.8"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">100%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Allocated</span>
+</div>
+</div>
+<!-- Legend details -->
+<div class="flex flex-col gap-space-xs w-full">
+<div class="flex justify-between items-center bg-surface-container p-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase">Accommodations (48%)</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-bold">AED 1,867</span>
+</div>
+<div class="flex justify-between items-center bg-surface-container p-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 bg-[#10B981]"></span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase">Dining (24%)</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-bold">AED 933</span>
+</div>
+<div class="flex justify-between items-center bg-surface-container p-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 bg-[#3B82F6]"></span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase">Attractions (18%)</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-bold">AED 700</span>
+</div>
+<div class="flex justify-between items-center bg-surface-container p-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 bg-[#8B5CF6]"></span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase">Transit & Nol (10%)</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-bold">AED 390</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Semi-circular Budget Utilization Gauge -->
+<div class="bg-surface-container-low p-space-md flex flex-col justify-between">
+<div>
+<span class="font-headline-sm text-headline-sm text-on-surface uppercase">Budget Utilization Gauge</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Threshold safety calculation against over-subscription.</p>
+</div>
+<div class="flex flex-col items-center justify-center my-space-sm">
+<!-- Half Gauge SVG -->
+<div class="relative w-48 h-28 overflow-hidden">
+<svg class="w-full h-full" viewbox="0 0 100 50">
+<path class="text-surface-container-high" d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="8"></path>
+<path d="M 10 50 A 40 40 0 0 1 79 21" fill="none" stroke="#EE9800" stroke-linecap="round" stroke-width="8"></path>
+</svg>
+<div class="absolute bottom-0 inset-x-0 text-center">
+<span class="font-headline-xl text-headline-xl text-on-surface font-bold">86.4%</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-widest mt-1">OPTIMAL SPEND RATIO</span>
+</div>
+<!-- Substitution Savings Directives Card -->
+<div class="p-space-sm bg-surface-container flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0">savings</span>
+<div>
+<span class="font-label-sm text-label-sm uppercase text-secondary font-bold">Agent Substitution Directive</span>
+<p class="font-body-sm text-body-sm text-on-surface mt-0.5">
+                    Agent substituted At.mosphere High Tea with Sky Views Observatory deck (+AED 380 saved) to respect maximum luxury envelope.
+                  </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Itemized Cost Ledger Table -->
+<div class="bg-surface-container-low p-space-md flex flex-col gap-space-sm">
+<span class="font-headline-sm text-headline-sm text-on-surface uppercase">Itemized Cost Ledger</span>
+<div class="overflow-x-auto w-full">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase">
+<th class="p-space-xs">Day</th>
+<th class="p-space-xs">Category</th>
+<th class="p-space-xs">Item Description</th>
+<th class="p-space-xs text-right">Cost (AED)</th>
+<th class="p-space-xs">Notes</th>
+</tr>
+</thead>
+<tbody class="divide-none text-on-surface">
+<tr class="bg-surface-container-lowest/60">
+<td class="p-space-xs font-bold text-secondary">Day 1</td>
+<td class="p-space-xs uppercase text-on-surface-variant">Culture</td>
+<td class="p-space-xs font-semibold">Al Fahidi Historical District & Coffee Museum</td>
+<td class="p-space-xs text-right text-secondary font-bold">FREE</td>
+<td class="p-space-xs text-on-surface-variant">Public heritage reserve</td>
+</tr>
+<tr class="bg-surface-container-low">
+<td class="p-space-xs font-bold text-secondary">Day 1</td>
+<td class="p-space-xs uppercase text-on-surface-variant">Transit</td>
+<td class="p-space-xs font-semibold">Bur Dubai ➔ Deira Old Souk Traditional Abra</td>
+<td class="p-space-xs text-right font-bold">AED 2.00</td>
+<td class="p-space-xs text-on-surface-variant">RTA cash marine tariff</td>
+</tr>
+<tr class="bg-surface-container-lowest/60">
+<td class="p-space-xs font-bold text-secondary">Day 1</td>
+<td class="p-space-xs uppercase text-on-surface-variant">Dining</td>
+<td class="p-space-xs font-semibold">Arabian Tea House Traditional Lunch</td>
+<td class="p-space-xs text-right font-bold">AED 160.00</td>
+<td class="p-space-xs text-on-surface-variant">Emirati tasting spread</td>
+</tr>
+<tr class="bg-surface-container-low">
+<td class="p-space-xs font-bold text-primary">Day 2</td>
+<td class="p-space-xs uppercase text-on-surface-variant">Attraction</td>
+<td class="p-space-xs font-semibold">Burj Khalifa Observation Deck (124 & 125)</td>
+<td class="p-space-xs text-right font-bold">AED 179.00</td>
+<td class="p-space-xs text-on-surface-variant">Timed non-prime entry</td>
+</tr>
+<tr class="bg-surface-container-lowest/60">
+<td class="p-space-xs font-bold text-primary">Day 2</td>
+<td class="p-space-xs uppercase text-on-surface-variant">Dining</td>
+<td class="p-space-xs font-semibold">Time Out Market Waterfront Terrace Dinner</td>
+<td class="p-space-xs text-right font-bold">AED 210.00</td>
+<td class="p-space-xs text-on-surface-variant">Fountain view dining</td>
+</tr>
+<tr class="bg-surface-container-low">
+<td class="p-space-xs font-bold text-tertiary">Day 3</td>
+<td class="p-space-xs uppercase text-on-surface-variant">Attraction</td>
+<td class="p-space-xs font-semibold">Dubai Marina Canal & Ain Dubai Cruise</td>
+<td class="p-space-xs text-right font-bold">AED 195.00</td>
+<td class="p-space-xs text-on-surface-variant">Sunset departure slot</td>
+</tr>
+<tr class="bg-surface-container-lowest/60">
+<td class="p-space-xs font-bold text-on-surface-variant">1-3</td>
+<td class="p-space-xs uppercase text-on-surface-variant">Hotel</td>
+<td class="p-space-xs font-semibold">2 Nights Downtown Midscale Accommodation</td>
+<td class="p-space-xs text-right font-bold text-secondary">AED 1,300.00</td>
+<td class="p-space-xs text-on-surface-variant">Inclusive of municipality fees</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- ==================== TAB 4: AGENT TRACE ==================== -->
+<div class="hidden flex-col gap-space-md w-full" id="tab-content-trace">
+<div class="p-space-md bg-surface-container-low flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Multi-Agent Execution Trace & Quality Assurance</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Underlying LangGraph multi-agent swarm telemetry, reflection passes, and RTA transit feasibility verifications.</p>
+</div>
+<!-- Review Agent Audit Report Card -->
+<div class="bg-surface-container-low p-space-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 bg-secondary"></span>
+<span class="font-headline-sm text-headline-sm text-on-surface uppercase">Review Agent Audit Report</span>
+</div>
+<div class="px-space-sm py-0.5 bg-secondary text-on-secondary font-label-sm text-label-sm font-bold uppercase">
+                STATUS: PASSED (ZERO VIOLATIONS)
+              </div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm mt-space-xs">
+<div class="bg-surface-container p-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Model Orchestrator</span>
+<div class="font-label-md text-label-md text-on-surface font-bold mt-1">Ollama nemotron-3-ultra</div>
+</div>
+<div class="bg-surface-container p-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Fast Synthesis Sub-Engine</span>
+<div class="font-label-md text-label-md text-on-surface font-bold mt-1">Groq oss-120b LPU</div>
+</div>
+<div class="bg-surface-container p-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Constraint Feasibility</span>
+<div class="font-label-md text-label-md text-secondary font-bold mt-1">100% Validated vs SQLite DB</div>
+</div>
+</div>
+<div class="p-space-sm bg-surface-container-high mt-space-xs">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold">Reviewer Advisory Notes:</span>
+<p class="font-body-sm text-body-sm text-on-surface mt-0.5">
+                All 6 planned venues are synchronized with Open-Meteo solar heat index thresholds. Day 1 Abra and Green Line transitions are within realistic pedestrian transit envelopes (< 15 mins transfer). No hotel tier overruns detected.
+              </p>
+</div>
+</div>
+<!-- Sequential Agent Execution Logs -->
+<div class="bg-surface-container-low p-space-md flex flex-col gap-space-sm">
+<span class="font-headline-sm text-headline-sm text-on-surface uppercase">Chronological Agent Node Logs</span>
+<div class="flex flex-col gap-space-xs font-body-sm text-body-sm">
+<!-- Log 1 -->
+<div class="p-space-sm bg-surface-container flex flex-col md:flex-row md:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">[14:02:11.023]</span>
+<span class="font-label-md text-label-md text-secondary font-bold uppercase">ParserAgent ➔ IntentExtractionNode</span>
+<span class="text-on-surface">Extracted persona: Cultural & Views, Duration: 3 Days, Target: AED 4,500.</span>
+</div>
+<span class="px-space-xs py-0.5 bg-surface-container-high text-secondary font-label-sm text-label-sm uppercase">200 OK</span>
+</div>
+<!-- Log 2 -->
+<div class="p-space-sm bg-surface-container flex flex-col md:flex-row md:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">[14:02:12.481]</span>
+<span class="font-label-md text-label-md text-primary font-bold uppercase">ClimateAgent ➔ OpenMeteoFetchNode</span>
+<span class="text-on-surface">Retrieved February DXB averages: High 26.2°C, Solar UV 6, Zero outdoor sandstorm warnings.</span>
+</div>
+<span class="px-space-xs py-0.5 bg-surface-container-high text-primary font-label-sm text-label-sm uppercase">200 OK</span>
+</div>
+<!-- Log 3 -->
+<div class="p-space-sm bg-surface-container flex flex-col md:flex-row md:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">[14:02:15.190]</span>
+<span class="font-label-md text-label-md text-tertiary font-bold uppercase">VenueSelector ➔ SQLiteGroundingNode</span>
+<span class="text-on-surface">Queried 196 catalog venues; filtered 35 accessible within 10-min RTA metro walk shed.</span>
+</div>
+<span class="px-space-xs py-0.5 bg-surface-container-high text-tertiary font-label-sm text-label-sm uppercase">MATCHED (35)</span>
+</div>
+<!-- Log 4 -->
+<div class="p-space-sm bg-surface-container flex flex-col md:flex-row md:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">[14:02:19.802]</span>
+<span class="font-label-md text-label-md text-secondary font-bold uppercase">FinancialAgent ➔ FeasibilityMatrixNode</span>
+<span class="text-on-surface">Calculated total itinerary budget: AED 3,890. Surplus margin: +AED 610. Passed check.</span>
+</div>
+<span class="px-space-xs py-0.5 bg-surface-container-high text-secondary font-label-sm text-label-sm uppercase">SURPLUS OK</span>
+</div>
+<!-- Log 5 -->
+<div class="p-space-sm bg-surface-container flex flex-col md:flex-row md:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">[14:02:23.411]</span>
+<span class="font-label-md text-label-md text-on-surface font-bold uppercase">AuditReviewAgent ➔ FinalValidationNode</span>
+<span class="text-on-surface">State graph finalized. Circuit breaker unlocked. Returned round 0 synthesis payload.</span>
+</div>
+<span class="px-space-xs py-0.5 bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase font-bold">READY</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+<script>
+  // State and Interaction Management for Dubai AI Travel Planner
+  let currentEngineState = 'itinerary';
+  let activeTab = 'timeline';
+  let isSidebarCollapsed = false;
+
+  // Preset Configurations
+  const presets = {
+    heritage: {
+      prompt: "Explore historic Al Fahidi, Gold & Spice Souks, Dubai Museum, and traditional Creek abra with authentic Emirati dining.",
+      duration: 4,
+      hotelTier: "210",
+      budget: 2800,
+      month: "2",
+      interests: ["culture", "views", "free"]
+    },
+    modern: {
+      prompt: "Synthesize 3 days covering Burj Khalifa, Dubai Fountain, Downtown architectural landmarks, and Dubai Marina waterfront dining.",
+      duration: 3,
+      hotelTier: "650",
+      budget: 4500,
+      month: "2",
+      interests: ["culture", "views", "shopping"]
+    },
+    complete: {
+      prompt: "5-day comprehensive itinerary spanning Deira Creek, Downtown Burj Khalifa, Palm Jumeirah, Dubai Marina, and an evening desert safari.",
+      duration: 5,
+      hotelTier: "1750",
+      budget: 8500,
+      month: "11",
+      interests: ["culture", "beach", "adventure", "views", "nature"]
+    },
+    stopover: {
+      prompt: "24-48 hour stopover itinerary focused on rapid transit via Dubai Metro, iconic Burj Khalifa vistas, and Old Dubai Abra crossing.",
+      duration: 2,
+      hotelTier: "210",
+      budget: 1500,
+      month: "1",
+      interests: ["views", "culture", "free"]
+    }
+  };
+
+  // Switch Overall View State (Itinerary, Empty, Rejection)
+  function setEngineState(state) {
+    currentEngineState = state;
+    const viewItinerary = document.getElementById('view-itinerary');
+    const viewEmpty = document.getElementById('view-empty');
+    const viewRejection = document.getElementById('view-rejection');
+    const statusText = document.getElementById('telemetry-status-text');
+    const statusPing = document.getElementById('telemetry-ping');
+    const revisionsText = document.getElementById('telemetry-revisions');
+
+    // Reset view visibility
+    viewItinerary.classList.add('hidden');
+    viewEmpty.classList.add('hidden');
+    viewRejection.classList.add('hidden');
+
+    // Reset State button styles
+    const btnItinerary = document.getElementById('btn-state-itinerary');
+    const btnEmpty = document.getElementById('btn-state-empty');
+    const btnReject = document.getElementById('btn-state-reject');
+
+    [btnItinerary, btnEmpty, btnReject].forEach(btn => {
+      btn.className = "px-space-sm py-space-xs font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface bg-surface-container transition-all";
+    });
+
+    if (state === 'itinerary') {
+      viewItinerary.classList.remove('hidden');
+      btnItinerary.className = "px-space-sm py-space-xs font-label-sm text-label-sm uppercase bg-primary-container text-on-primary-container font-semibold transition-all";
+      statusText.textContent = "Approved (Round 0)";
+      statusText.className = "font-label-md text-label-md text-secondary font-bold uppercase truncate";
+      statusPing.className = "w-2 h-2 bg-secondary";
+      revisionsText.textContent = "0 / 3 Max Limits";
+    } else if (state === 'empty') {
+      viewEmpty.classList.remove('hidden');
+      btnEmpty.className = "px-space-sm py-space-xs font-label-sm text-label-sm uppercase bg-primary-container text-on-primary-container font-semibold transition-all";
+      statusText.textContent = "Ready For Request";
+      statusText.className = "font-label-md text-label-md text-on-surface font-bold uppercase truncate";
+      statusPing.className = "w-2 h-2 bg-primary";
+      revisionsText.textContent = "Standby";
+    } else if (state === 'rejection') {
+      viewRejection.classList.remove('hidden');
+      btnReject.className = "px-space-sm py-space-xs font-label-sm text-label-sm uppercase bg-error-container text-on-error-container font-semibold transition-all";
+      statusText.textContent = "Circuit Breaker: Rejected";
+      statusText.className = "font-label-md text-label-md text-error font-bold uppercase truncate";
+      statusPing.className = "w-2 h-2 bg-error";
+      revisionsText.textContent = "Halted by Safety Policy";
+    }
+  }
+
+  // Switch Sub-tabs in Itinerary view
+  function switchTab(tabKey) {
+    activeTab = tabKey;
+    const tabs = ['timeline', 'map', 'financial', 'trace'];
+    tabs.forEach(t => {
+      const content = document.getElementById('tab-content-' + t);
+      const button = document.getElementById('nav-tab-' + t);
+      if (t === tabKey) {
+        content.classList.remove('hidden');
+        button.className = "px-space-md py-space-sm font-label-md text-label-md uppercase font-bold flex items-center gap-space-xs bg-primary-container text-on-primary-container transition-all";
+      } else {
+        content.classList.add('hidden');
+        button.className = "px-space-md py-space-sm font-label-md text-label-md uppercase font-bold flex items-center gap-space-xs bg-surface-container text-on-surface-variant hover:text-on-surface transition-all";
+      }
+    });
+  }
+
+  // Sidebar Width Toggle (Collapse / Expand)
+  function toggleSidebarWidth() {
+    isSidebarCollapsed = !isSidebarCollapsed;
+    const sidebar = document.getElementById('planner-sidebar');
+    const expandedContent = document.getElementById('sidebar-expanded-content');
+    const collapsedContent = document.getElementById('sidebar-collapsed-content');
+    const chevron = document.getElementById('toggle-chevron');
+
+    if (isSidebarCollapsed) {
+      sidebar.classList.remove('lg:w-80');
+      sidebar.classList.add('lg:w-16');
+      expandedContent.classList.add('hidden');
+      collapsedContent.classList.remove('hidden');
+      if (chevron) chevron.textContent = 'chevron_right';
+    } else {
+      sidebar.classList.add('lg:w-80');
+      sidebar.classList.remove('lg:w-16');
+      expandedContent.classList.remove('hidden');
+      collapsedContent.classList.add('hidden');
+      if (chevron) chevron.textContent = 'chevron_left';
+    }
+  }
+
+  // Duration Slider Handler
+  function handleDurationChange(val) {
+    document.getElementById('duration-badge').textContent = val + (val === '1' ? ' Day' : ' Days');
+    recalculateFeasibility();
+  }
+
+  // Month Change & Climate Advisory
+  function handleMonthChange(monthNum) {
+    const m = parseInt(monthNum, 10);
+    const climateCard = document.getElementById('climate-card');
+    
+    // In May (5) to Sep (9): Extreme Summer
+    if (m >= 5 && m <= 9) {
+      climateCard.className = "p-space-sm bg-surface-container-high";
+      climateCard.innerHTML = `
+        <div class="flex items-center gap-space-xs">
+          <span class="material-symbols-outlined text-secondary text-[20px]">warning</span>
+          <span class="font-label-sm text-label-sm font-bold uppercase text-secondary">Extreme Summer Heat Advisory</span>
+        </div>
+        <p class="font-body-sm text-body-sm text-on-surface mt-1">
+          Average daytime high 41°C. Heat index exceeds 48°C. Midday outdoor walking tours auto-rerouted to climate-controlled venues (The Dubai Mall, Museum of the Future, Green Planet).
+        </p>
+      `;
+    } else {
+      climateCard.className = "p-space-sm bg-surface-container";
+      climateCard.innerHTML = `
+        <div class="flex items-center gap-space-xs">
+          <span class="material-symbols-outlined text-secondary text-[20px]">sunny</span>
+          <span class="font-label-sm text-label-sm font-bold uppercase text-on-surface">Pleasant Solar Cycle</span>
+        </div>
+        <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+          Average high 26°C - 28°C. Perfect for Creekside abra transfers, walking tours, and rooftop lounges.
+        </p>
+      `;
+    }
+  }
+
+  // Budget Feasibility Math
+  function recalculateFeasibility() {
+    const duration = parseInt(document.getElementById('duration-slider').value, 10);
+    const nightlyRate = parseInt(document.getElementById('hotel-tier-select').value, 10);
+    const budgetInput = parseInt(document.getElementById('budget-input').value, 10) || 0;
+    
+    // Formula: Min Budget = max(1, Duration - 1) * Nightly Rate + Duration * 80 AED
+    const nights = Math.max(1, duration - 1);
+    const minRequired = (nights * nightlyRate) + (duration * 80);
+    const container = document.getElementById('feasibility-container');
+
+    if (budgetInput < minRequired) {
+      const deficit = minRequired - budgetInput;
+      container.className = "p-space-sm bg-error-container text-on-error-container";
+      container.innerHTML = `
+        <div class="flex flex-col gap-space-xs">
+          <div class="flex items-center gap-space-xs">
+            <span class="material-symbols-outlined text-[18px]">error</span>
+            <span class="font-label-sm text-label-sm font-bold uppercase">Budget Deficit: Increase Budget (+AED ${deficit})</span>
+          </div>
+          <p class="font-body-sm text-body-sm text-on-error-container">
+            Min viable requirement is AED ${minRequired} for ${duration} days with selected accommodation tier.
+          </p>
+          <button onclick="quickFixBudget(${minRequired})" class="self-start mt-1 px-space-xs py-0.5 bg-on-error-container text-error-container font-label-sm text-label-sm font-bold uppercase">
+            ⚡ Set Budget to AED ${minRequired}
+          </button>
+        </div>
+      `;
+    } else {
+      container.className = "p-space-sm bg-surface-container";
+      container.innerHTML = `
+        <div class="flex items-center gap-space-xs text-secondary">
+          <span class="material-symbols-outlined text-[18px]">verified</span>
+          <span class="font-label-sm text-label-sm font-bold uppercase">✅ Budget sufficient for ${duration}D (Min req: AED ${minRequired})</span>
+        </div>
+      `;
+    }
+  }
+
+  function quickFixBudget(val) {
+    document.getElementById('budget-input').value = val;
+    recalculateFeasibility();
+  }
+
+  // Interest chip toggle
+  function toggleInterest(button) {
+    const isActive = button.classList.contains('bg-primary-container');
+    if (isActive) {
+      button.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-semibold');
+      button.classList.add('bg-surface-container', 'text-on-surface-variant');
+    } else {
+      button.classList.add('bg-primary-container', 'text-on-primary-container', 'font-semibold');
+      button.classList.remove('bg-surface-container', 'text-on-surface-variant');
+    }
+  }
+
+  // Apply Presets
+  function applyPreset(key) {
+    const data = presets[key];
+    if (!data) return;
+
+    document.getElementById('user-prompt-input').value = data.prompt;
+    document.getElementById('duration-slider').value = data.duration;
+    document.getElementById('duration-badge').textContent = data.duration + (data.duration === 1 ? ' Day' : ' Days');
+    document.getElementById('hotel-tier-select').value = data.hotelTier;
+    document.getElementById('budget-input').value = data.budget;
+    document.getElementById('month-select').value = data.month;
+    handleMonthChange(data.month);
+
+    // Update Interests
+    const buttons = document.querySelectorAll('#interests-group button');
+    buttons.forEach(btn => {
+      const interest = btn.getAttribute('data-interest');
+      if (data.interests.includes(interest)) {
+        btn.classList.add('bg-primary-container', 'text-on-primary-container', 'font-semibold');
+        btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+      } else {
+        btn.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-semibold');
+        btn.classList.add('bg-surface-container', 'text-on-surface-variant');
+      }
+    });
+
+    recalculateFeasibility();
+    setEngineState('itinerary');
+  }
+
+  // Trigger Generate Button
+  function triggerGenerate() {
+    const budgetInput = parseInt(document.getElementById('budget-input').value, 10) || 0;
+    const duration = parseInt(document.getElementById('duration-slider').value, 10);
+    const nightlyRate = parseInt(document.getElementById('hotel-tier-select').value, 10);
+    const minRequired = (Math.max(1, duration - 1) * nightlyRate) + (duration * 80);
+
+    if (budgetInput < minRequired) {
+      document.getElementById('rejection-reason').textContent = 
+        `Insufficient budget baseline for requested Tier over ${duration} Days. Required: AED ${minRequired} | Provided: AED ${budgetInput}`;
+      setEngineState('rejection');
+    } else {
+      setEngineState('itinerary');
+      switchTab('timeline');
+    }
+  }
+
+  // Day Accordions Toggle
+  function toggleDayAccordion(bodyId, chevronId) {
+    const body = document.getElementById(bodyId);
+    const chevron = document.getElementById(chevronId);
+    if (body.classList.contains('hidden')) {
+      body.classList.remove('hidden');
+      chevron.style.transform = 'rotate(0deg)';
+    } else {
+      body.classList.add('hidden');
+      chevron.style.transform = 'rotate(180deg)';
+    }
+  }
+
+  // Toggle Rejection Audit Log Pre
+  function toggleAuditLog() {
+    const pre = document.getElementById('audit-log-pre');
+    const label = document.getElementById('audit-toggle-text');
+    if (pre.classList.contains('hidden')) {
+      pre.classList.remove('hidden');
+      label.textContent = "🔍 Hide Circuit Breaker Audit Log";
+    } else {
+      pre.classList.add('hidden');
+      label.textContent = "🔍 Inspect Circuit Breaker Audit Log (JSON)";
+    }
+  }
+
+  function autoFixRejectionBudget() {
+    document.getElementById('budget-input').value = 7400;
+    document.getElementById('duration-slider').value = 5;
+    document.getElementById('duration-badge').textContent = '5 Days';
+    recalculateFeasibility();
+    setEngineState('itinerary');
+  }
+
+  // Show Interactive Pin Detail in Map
+  function showPinDetail(title, day, sub, spend) {
+    const modal = document.getElementById('map-pin-modal');
+    document.getElementById('pin-title').textContent = title;
+    document.getElementById('pin-day-badge').textContent = day;
+    document.getElementById('pin-sub').textContent = sub;
+    document.getElementById('pin-spend').textContent = spend;
+    modal.classList.remove('hidden');
+  }
+
+  // Initial Calculation Run
+  recalculateFeasibility();
+</script></div>
+</div>
+<div class="fixed bottom-0 left-0 right-0 h-16 pointer-events-none z-10 flex items-end justify-center opacity-25 overflow-hidden">
+<svg class="w-full h-12 text-surface-container-high fill-current" preserveaspectratio="none" viewbox="0 0 1200 120"><path d="M0,120 L0,95 L40,95 L40,80 L48,80 L48,95 L70,95 L70,110 L120,110 L120,60 L125,60 L125,10 L127,0 L129,10 L129,60 L134,60 L134,110 L180,110 L180,85 L210,85 L210,120 L300,120 L300,70 L305,65 L315,65 L320,70 L320,120 L450,120 L450,90 L480,90 L480,120 L580,120 L580,50 L588,50 L588,15 L590,5 L592,15 L592,50 L600,50 L600,120 L750,120 L750,75 L790,75 L790,120 L880,120 L880,40 L895,40 L910,120 L1020,120 L1020,80 L1060,80 L1060,120 L1200,120 Z"></path></svg>
+</div>
+</main>
+</body></html>

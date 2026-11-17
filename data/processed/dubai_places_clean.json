@@ -1,0 +1,2343 @@
+[
+  {
+    "id": "att_old_01",
+    "name": "Al Fahidi Historical Neighbourhood",
+    "category": "culture",
+    "district": "Old Dubai & Creek",
+    "lat": 25.2635,
+    "lng": 55.2974,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 90,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "07:00 - 20:00",
+      "friday": "07:00 - 20:00"
+    },
+    "tags": [
+      "culture",
+      "heritage",
+      "history",
+      "architecture",
+      "free",
+      "walking"
+    ],
+    "description": "Historic 19th-century district with traditional wind towers, narrow lanes, art galleries, and cultural museums."
+  },
+  {
+    "id": "att_old_02",
+    "name": "Dubai Creek Traditional Abra Crossing",
+    "category": "transit_experience",
+    "district": "Old Dubai & Creek",
+    "lat": 25.2662,
+    "lng": 55.2958,
+    "admission_fee_aed": 2.0,
+    "recommended_duration_mins": 30,
+    "crowd_level": "high",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "06:00 - 23:59",
+      "friday": "06:00 - 23:59"
+    },
+    "tags": [
+      "culture",
+      "transit",
+      "water",
+      "views",
+      "budget",
+      "iconic"
+    ],
+    "description": "Iconic traditional motorized wooden boat crossing between Bur Dubai and Deira spice and gold markets."
+  },
+  {
+    "id": "att_old_03",
+    "name": "Deira Gold & Spice Souk",
+    "category": "culture",
+    "district": "Old Dubai & Creek",
+    "lat": 25.2678,
+    "lng": 55.2995,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 120,
+    "crowd_level": "high",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:30 - 21:30",
+      "friday": "16:00 - 21:30"
+    },
+    "tags": [
+      "culture",
+      "shopping",
+      "spices",
+      "gold",
+      "market",
+      "free"
+    ],
+    "description": "Vibrant traditional Arabian bazaars offering hundreds of gold jewelry shops, aromatic spices, and perfumes."
+  },
+  {
+    "id": "att_old_04",
+    "name": "Al Shindagha Museum & Perfume House",
+    "category": "culture",
+    "district": "Old Dubai & Creek",
+    "lat": 25.2674,
+    "lng": 55.2891,
+    "admission_fee_aed": 50.0,
+    "recommended_duration_mins": 120,
+    "crowd_level": "low",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 20:00",
+      "friday": "10:00 - 20:00"
+    },
+    "tags": [
+      "culture",
+      "museum",
+      "history",
+      "perfume",
+      "interactive"
+    ],
+    "description": "World-class open-air heritage museum chronicling the nation's maritime trade, governance, and traditional perfumery."
+  },
+  {
+    "id": "att_old_05",
+    "name": "Al Seef Heritage Waterfront",
+    "category": "leisure",
+    "district": "Old Dubai & Creek",
+    "lat": 25.2612,
+    "lng": 55.3045,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 90,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "10:00 - 23:00",
+      "friday": "10:00 - 23:00"
+    },
+    "tags": [
+      "culture",
+      "waterfront",
+      "walkway",
+      "architecture",
+      "free",
+      "dining"
+    ],
+    "description": "Charming riverside destination blending rustic traditional Emirati heritage architecture with modern dining."
+  },
+  {
+    "id": "att_old_06",
+    "name": "Sheikh Mohammed Centre for Cultural Understanding (SMCCU)",
+    "category": "culture",
+    "district": "Old Dubai & Creek",
+    "lat": 25.2641,
+    "lng": 55.2979,
+    "admission_fee_aed": 75.0,
+    "recommended_duration_mins": 90,
+    "crowd_level": "low",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 17:00",
+      "friday": "09:00 - 14:00"
+    },
+    "tags": [
+      "culture",
+      "educational",
+      "emirati_cuisine",
+      "tradition"
+    ],
+    "description": "Interactive cultural center hosting traditional Emirati breakfasts, lunches, and open cross-cultural conversations."
+  },
+  {
+    "id": "att_old_07",
+    "name": "Dubai Museum & Al Fahidi Fort",
+    "category": "culture",
+    "district": "Old Dubai & Creek",
+    "lat": 25.2635,
+    "lng": 55.2972,
+    "admission_fee_aed": 3.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "08:30 - 20:30",
+      "friday": "14:30 - 20:30"
+    },
+    "tags": [
+      "museum",
+      "fort",
+      "history",
+      "budget",
+      "culture"
+    ],
+    "description": "Housed within Dubai's oldest existing building (built 1787), showcasing pre-oil life, pearl diving, and desert weapons."
+  },
+  {
+    "id": "att_old_08",
+    "name": "Bur Dubai Textile Souk",
+    "category": "culture",
+    "district": "Old Dubai & Creek",
+    "lat": 25.2619,
+    "lng": 55.2952,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "16:00 - 21:00"
+    },
+    "tags": [
+      "market",
+      "fabrics",
+      "silk",
+      "shopping",
+      "culture",
+      "free"
+    ],
+    "description": "Traditional covered bazaar packed with vibrant rolls of silk, pashminas, hand-woven fabrics, and custom tailors."
+  },
+  {
+    "id": "att_old_09",
+    "name": "Heritage House & Al Ahmadiya School",
+    "category": "culture",
+    "district": "Old Dubai & Creek",
+    "lat": 25.2686,
+    "lng": 55.2947,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 50,
+    "crowd_level": "low",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "08:00 - 19:30",
+      "friday": "14:30 - 19:30"
+    },
+    "tags": [
+      "history",
+      "school",
+      "free",
+      "heritage",
+      "architecture"
+    ],
+    "description": "Dubai's first formal school established in 1912, restored with historical classrooms and period pearl merchant houses."
+  },
+  {
+    "id": "att_old_10",
+    "name": "Coffee Museum Dubai",
+    "category": "culture",
+    "district": "Old Dubai & Creek",
+    "lat": 25.2638,
+    "lng": 55.2981,
+    "admission_fee_aed": 10.0,
+    "recommended_duration_mins": 45,
+    "crowd_level": "low",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 17:00",
+      "friday": "closed"
+    },
+    "tags": [
+      "museum",
+      "coffee",
+      "roasting",
+      "culture",
+      "hidden_gem"
+    ],
+    "description": "Boutique heritage museum celebrating regional and Ethiopian coffee culture, antique grinders, and traditional brewing."
+  },
+  {
+    "id": "att_old_11",
+    "name": "Museum of Illusions Dubai",
+    "category": "entertainment",
+    "district": "Old Dubai & Creek",
+    "lat": 25.2618,
+    "lng": 55.3031,
+    "admission_fee_aed": 80.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 22:00",
+      "friday": "10:00 - 23:00"
+    },
+    "tags": [
+      "entertainment",
+      "interactive",
+      "family",
+      "indoor",
+      "optical_illusions"
+    ],
+    "description": "Playful optical illusion wonderland situated on the Al Seef waterfront featuring vortex tunnels and anti-gravity rooms."
+  },
+  {
+    "id": "att_old_12",
+    "name": "Deira Clocktower",
+    "category": "architecture",
+    "district": "Old Dubai & Creek",
+    "lat": 25.2587,
+    "lng": 55.3265,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 20,
+    "crowd_level": "low",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "24 hours",
+      "friday": "24 hours"
+    },
+    "tags": [
+      "monument",
+      "landmark",
+      "history",
+      "photography",
+      "free"
+    ],
+    "description": "Iconic mid-century roundabout landmark erected in 1963 symbolising Dubai's early trade and gateway to Deira."
+  },
+  {
+    "id": "att_downtown_01",
+    "name": "Burj Khalifa — At The Top (Levels 124 & 125)",
+    "category": "architecture",
+    "district": "Downtown & DIFC",
+    "lat": 25.1972,
+    "lng": 55.2744,
+    "admission_fee_aed": 179.0,
+    "recommended_duration_mins": 90,
+    "crowd_level": "high",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "08:30 - 23:00",
+      "friday": "08:30 - 23:00"
+    },
+    "tags": [
+      "architecture",
+      "views",
+      "landmark",
+      "iconic",
+      "skyscraper"
+    ],
+    "description": "Observation deck of the world's tallest building, offering 360-degree panoramic views of Dubai's skyline and desert."
+  },
+  {
+    "id": "att_downtown_02",
+    "name": "Museum of the Future",
+    "category": "innovation",
+    "district": "Downtown & DIFC",
+    "lat": 25.2192,
+    "lng": 55.2819,
+    "admission_fee_aed": 149.0,
+    "recommended_duration_mins": 120,
+    "crowd_level": "high",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:30 - 19:00",
+      "friday": "09:30 - 19:00"
+    },
+    "tags": [
+      "innovation",
+      "museum",
+      "architecture",
+      "technology",
+      "family"
+    ],
+    "description": "Architectural marvel featuring immersive exhibits on space exploration, bioengineering, and near-future technologies."
+  },
+  {
+    "id": "att_downtown_03",
+    "name": "The Dubai Mall & Aquarium Underwater Zoo",
+    "category": "shopping_entertainment",
+    "district": "Downtown & DIFC",
+    "lat": 25.1985,
+    "lng": 55.2796,
+    "admission_fee_aed": 150.0,
+    "recommended_duration_mins": 180,
+    "crowd_level": "high",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 23:00",
+      "friday": "10:00 - 23:59"
+    },
+    "tags": [
+      "shopping",
+      "aquarium",
+      "indoor",
+      "entertainment",
+      "family"
+    ],
+    "description": "Massive retail hub housing a 10-million-liter suspended aquarium tank with thousands of marine animals."
+  },
+  {
+    "id": "att_downtown_04",
+    "name": "The Dubai Fountain Show",
+    "category": "entertainment",
+    "district": "Downtown & DIFC",
+    "lat": 25.196,
+    "lng": 55.2762,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 45,
+    "crowd_level": "high",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "18:00 - 23:00 (every 30 mins)",
+      "friday": "18:00 - 23:00"
+    },
+    "tags": [
+      "entertainment",
+      "water_show",
+      "free",
+      "music",
+      "nightlife",
+      "iconic"
+    ],
+    "description": "Captivating choreographed musical water fountain show set on the 30-acre Burj Lake against the Burj Khalifa."
+  },
+  {
+    "id": "att_downtown_05",
+    "name": "Sky Views Dubai Observatory & Glass Slide",
+    "category": "adventure",
+    "district": "Downtown & DIFC",
+    "lat": 25.2014,
+    "lng": 55.2711,
+    "admission_fee_aed": 85.0,
+    "recommended_duration_mins": 75,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 22:00",
+      "friday": "10:00 - 22:00"
+    },
+    "tags": [
+      "views",
+      "thrill",
+      "glass_walk",
+      "skyline",
+      "architecture"
+    ],
+    "description": "Glass-bottomed observation walkway and transparent glass slide linking twin towers 219 meters above ground."
+  },
+  {
+    "id": "att_downtown_06",
+    "name": "Dubai Frame (Zabeel Park)",
+    "category": "architecture",
+    "district": "Downtown & DIFC",
+    "lat": 25.2345,
+    "lng": 55.3003,
+    "admission_fee_aed": 52.5,
+    "recommended_duration_mins": 75,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "architecture",
+      "views",
+      "bridge",
+      "budget",
+      "iconic"
+    ],
+    "description": "150-meter-tall golden rectangular frame framing Old Dubai to the north and futuristic New Dubai to the south."
+  },
+  {
+    "id": "att_downtown_07",
+    "name": "Dubai Opera",
+    "category": "culture_arts",
+    "district": "Downtown & DIFC",
+    "lat": 25.1932,
+    "lng": 55.2719,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 45,
+    "crowd_level": "low",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 21:00",
+      "friday": "10:00 - 21:00"
+    },
+    "tags": [
+      "arts",
+      "music",
+      "architecture",
+      "dhow_shape",
+      "theater"
+    ],
+    "description": "2,000-seat multi-format performing arts center shaped like a traditional Arabian dhow vessel."
+  },
+  {
+    "id": "att_downtown_08",
+    "name": "Souk Al Bahar & Boardwalk",
+    "category": "culture_leisure",
+    "district": "Downtown & DIFC",
+    "lat": 25.1947,
+    "lng": 55.2778,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 22:00",
+      "friday": "10:00 - 22:00"
+    },
+    "tags": [
+      "culture",
+      "shopping",
+      "waterfront",
+      "free",
+      "fountain_views"
+    ],
+    "description": "Arabesque dining and shopping marketplace connected via footbridge to Dubai Mall with unobstructed fountain views."
+  },
+  {
+    "id": "att_downtown_09",
+    "name": "DIFC Gate Village Art Galleries",
+    "category": "art",
+    "district": "Downtown & DIFC",
+    "lat": 25.2138,
+    "lng": 55.2812,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 75,
+    "crowd_level": "low",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 20:00",
+      "friday": "closed"
+    },
+    "tags": [
+      "art",
+      "contemporary",
+      "galleries",
+      "free",
+      "luxury",
+      "sculptures"
+    ],
+    "description": "Dubai's financial center cultural quarter housing prestigious contemporary Middle Eastern and international art galleries."
+  },
+  {
+    "id": "att_downtown_10",
+    "name": "The Green Planet Bio-Dome (City Walk)",
+    "category": "nature",
+    "district": "Downtown & DIFC",
+    "lat": 25.2066,
+    "lng": 55.2592,
+    "admission_fee_aed": 155.0,
+    "recommended_duration_mins": 100,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 18:00",
+      "friday": "10:00 - 18:00"
+    },
+    "tags": [
+      "rainforest",
+      "indoor",
+      "animals",
+      "family",
+      "educational"
+    ],
+    "description": "Enclosed tropical rainforest bio-dome hosting over 3,000 plants and animals around a giant artificial kapok tree."
+  },
+  {
+    "id": "att_marina_01",
+    "name": "Dubai Marina Walk",
+    "category": "leisure",
+    "district": "Dubai Marina & JBR",
+    "lat": 25.0772,
+    "lng": 55.1385,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 90,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "24 hours",
+      "friday": "24 hours"
+    },
+    "tags": [
+      "waterfront",
+      "yachts",
+      "walking",
+      "skyline",
+      "free",
+      "relaxed"
+    ],
+    "description": "Scenic 7-kilometer palm-lined waterfront promenade fringed by luxury yachts, cafes, and illuminated skyscrapers."
+  },
+  {
+    "id": "att_marina_02",
+    "name": "The Beach at JBR & The Walk",
+    "category": "beach",
+    "district": "Dubai Marina & JBR",
+    "lat": 25.0789,
+    "lng": 55.1324,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 150,
+    "crowd_level": "high",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "07:00 - 22:00",
+      "friday": "07:00 - 22:00"
+    },
+    "tags": [
+      "beach",
+      "swimming",
+      "promenade",
+      "dining",
+      "free",
+      "family"
+    ],
+    "description": "Popular public sandy beach destination with changing facilities, watersports, beach volleyball, and an open-air mall."
+  },
+  {
+    "id": "att_marina_03",
+    "name": "Bluewaters Island & Ain Dubai Plaza",
+    "category": "lifestyle",
+    "district": "Dubai Marina & JBR",
+    "lat": 25.0801,
+    "lng": 55.1219,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 90,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "10:00 - 23:00",
+      "friday": "10:00 - 23:00"
+    },
+    "tags": [
+      "island",
+      "views",
+      "pedestrian_bridge",
+      "nightlife",
+      "free"
+    ],
+    "description": "Modern urban island accessible via a scenic 265-meter pedestrian bridge from JBR, offering dramatic coastal views."
+  },
+  {
+    "id": "att_marina_04",
+    "name": "Madame Tussauds Dubai",
+    "category": "entertainment",
+    "district": "Dubai Marina & JBR",
+    "lat": 25.0792,
+    "lng": 55.1225,
+    "admission_fee_aed": 145.0,
+    "recommended_duration_mins": 75,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "11:00 - 21:00",
+      "friday": "10:00 - 22:00"
+    },
+    "tags": [
+      "celebrities",
+      "wax_museum",
+      "interactive",
+      "indoor",
+      "family"
+    ],
+    "description": "Celebrity wax museum on Bluewaters Island featuring regional Arab leaders, movie stars, musicians, and sports icons."
+  },
+  {
+    "id": "att_marina_05",
+    "name": "Dubai Marina Mall Promenade",
+    "category": "shopping_leisure",
+    "district": "Dubai Marina & JBR",
+    "lat": 25.0765,
+    "lng": 55.1402,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 22:00",
+      "friday": "10:00 - 23:00"
+    },
+    "tags": [
+      "mall",
+      "waterfront_dining",
+      "retail",
+      "metro_connected",
+      "free"
+    ],
+    "description": "Boutique waterfront shopping and dining complex connected directly to the Dubai Tram and Dubai Ferry."
+  },
+  {
+    "id": "att_marina_06",
+    "name": "Skydive Dubai Marina Dropzone (Viewing Area)",
+    "category": "adventure",
+    "district": "Dubai Marina & JBR",
+    "lat": 25.0921,
+    "lng": 55.1384,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 45,
+    "crowd_level": "low",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "08:00 - 17:00",
+      "friday": "08:00 - 17:00"
+    },
+    "tags": [
+      "parachutes",
+      "harbour",
+      "views",
+      "coffee",
+      "coastal",
+      "free"
+    ],
+    "description": "Vibrant coastal dropzone cafe viewing area where visitors watch parachutists landing with Palm Jumeirah in the background."
+  },
+  {
+    "id": "att_palm_01",
+    "name": "The View at The Palm (Level 52)",
+    "category": "views",
+    "district": "Palm Jumeirah & Jumeirah",
+    "lat": 25.1124,
+    "lng": 55.139,
+    "admission_fee_aed": 100.0,
+    "recommended_duration_mins": 75,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 22:00"
+    },
+    "tags": [
+      "views",
+      "palm_jumeirah",
+      "observation_deck",
+      "photography",
+      "iconic"
+    ],
+    "description": "240-meter-high observatory providing an unparalleled 360-degree panorama of the entire Palm Jumeirah archipelago."
+  },
+  {
+    "id": "att_palm_02",
+    "name": "Souk Madinat Jumeirah",
+    "category": "culture_leisure",
+    "district": "Palm Jumeirah & Jumeirah",
+    "lat": 25.1332,
+    "lng": 55.1856,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 100,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 23:00",
+      "friday": "10:00 - 23:00"
+    },
+    "tags": [
+      "culture",
+      "shopping",
+      "waterways",
+      "abra",
+      "burj_al_arab_view",
+      "free"
+    ],
+    "description": "Atmospheric bazaar recreation with internal waterways, traditional abras, handicraft shops, and waterfront restaurants."
+  },
+  {
+    "id": "att_palm_03",
+    "name": "Kite Beach (Jumeirah)",
+    "category": "beach",
+    "district": "Palm Jumeirah & Jumeirah",
+    "lat": 25.1633,
+    "lng": 55.2078,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 120,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "24 hours",
+      "friday": "24 hours"
+    },
+    "tags": [
+      "beach",
+      "watersports",
+      "kitesurfing",
+      "burj_al_arab_view",
+      "food_trucks",
+      "free"
+    ],
+    "description": "Dubai's favorite active beach, boasting soft sands, running tracks, food trucks, and iconic Burj Al Arab sunset views."
+  },
+  {
+    "id": "att_palm_04",
+    "name": "Palm West Beach Boardwalk",
+    "category": "beach",
+    "district": "Palm Jumeirah & Jumeirah",
+    "lat": 25.1189,
+    "lng": 55.1432,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 90,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "08:00 - 23:59",
+      "friday": "08:00 - 23:59"
+    },
+    "tags": [
+      "beach",
+      "walkway",
+      "sunset",
+      "skyline_views",
+      "free"
+    ],
+    "description": "1.6-kilometer beachside promenade on the trunk of the Palm with pristine waters, shaded cabanas, and Dubai Marina views."
+  },
+  {
+    "id": "att_palm_05",
+    "name": "Atlantis Aquaventure Waterpark",
+    "category": "entertainment",
+    "district": "Palm Jumeirah & Jumeirah",
+    "lat": 25.1337,
+    "lng": 55.1205,
+    "admission_fee_aed": 345.0,
+    "recommended_duration_mins": 240,
+    "crowd_level": "high",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:45 - 18:30",
+      "friday": "09:45 - 18:30"
+    },
+    "tags": [
+      "waterpark",
+      "entertainment",
+      "thrill",
+      "family",
+      "luxury"
+    ],
+    "description": "Massive record-breaking waterpark featuring over 105 slides, private beach access, and marine animal experiences."
+  },
+  {
+    "id": "att_palm_06",
+    "name": "The Lost Chambers Aquarium (Atlantis)",
+    "category": "entertainment",
+    "district": "Palm Jumeirah & Jumeirah",
+    "lat": 25.1311,
+    "lng": 55.1188,
+    "admission_fee_aed": 135.0,
+    "recommended_duration_mins": 75,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 21:00",
+      "friday": "10:00 - 21:00"
+    },
+    "tags": [
+      "aquarium",
+      "marine_life",
+      "mythology",
+      "indoor",
+      "family"
+    ],
+    "description": "Underwater halls and passages themed around the lost city of Atlantis, housing 65,000 marine animals."
+  },
+  {
+    "id": "att_palm_07",
+    "name": "Burj Al Arab Jumeirah Public Sunset Viewpoint",
+    "category": "views",
+    "district": "Palm Jumeirah & Jumeirah",
+    "lat": 25.1412,
+    "lng": 55.1852,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 45,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "24 hours",
+      "friday": "24 hours"
+    },
+    "tags": [
+      "landmark",
+      "sunset",
+      "burj_al_arab",
+      "photography",
+      "free"
+    ],
+    "description": "Public beachfront vista offering world-famous unobstructed views of the iconic sail-shaped Burj Al Arab hotel."
+  },
+  {
+    "id": "att_palm_08",
+    "name": "Jumeirah Mosque",
+    "category": "culture",
+    "district": "Palm Jumeirah & Jumeirah",
+    "lat": 25.2338,
+    "lng": 55.2652,
+    "admission_fee_aed": 35.0,
+    "recommended_duration_mins": 75,
+    "crowd_level": "low",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 14:00 (guided tours)",
+      "friday": "closed"
+    },
+    "tags": [
+      "mosque",
+      "islamic_architecture",
+      "culture",
+      "guided_tour",
+      "heritage"
+    ],
+    "description": "Only mosque in Dubai open to non-Muslim visitors 6 days a week, built in medieval Fatimid architectural style."
+  },
+  {
+    "id": "att_outskirts_01",
+    "name": "Dubai Miracle Garden",
+    "category": "nature",
+    "district": "Desert & Outskirts",
+    "lat": 25.0601,
+    "lng": 55.2444,
+    "admission_fee_aed": 95.0,
+    "recommended_duration_mins": 120,
+    "crowd_level": "high",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 23:00"
+    },
+    "tags": [
+      "nature",
+      "flowers",
+      "family",
+      "photography",
+      "seasonal"
+    ],
+    "description": "World's largest natural flower garden displaying 150 million blooming flowers formed into life-sized sculptures (Nov-May)."
+  },
+  {
+    "id": "att_outskirts_02",
+    "name": "Global Village Dubai",
+    "category": "culture_entertainment",
+    "district": "Desert & Outskirts",
+    "lat": 25.0677,
+    "lng": 55.3006,
+    "admission_fee_aed": 25.0,
+    "recommended_duration_mins": 180,
+    "crowd_level": "high",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "16:00 - 23:59",
+      "friday": "16:00 - 01:00"
+    },
+    "tags": [
+      "culture",
+      "pavilions",
+      "shopping",
+      "international_food",
+      "budget",
+      "seasonal"
+    ],
+    "description": "Vast multicultural theme park showcasing pavilions from 90+ cultures, street performances, and global cuisine (Oct-Apr)."
+  },
+  {
+    "id": "att_outskirts_03",
+    "name": "Dubai Desert Conservation Reserve Heritage Drive",
+    "category": "nature_adventure",
+    "district": "Desert & Outskirts",
+    "lat": 24.8354,
+    "lng": 55.6534,
+    "admission_fee_aed": 220.0,
+    "recommended_duration_mins": 240,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "15:00 - 21:00",
+      "friday": "15:00 - 21:00"
+    },
+    "tags": [
+      "desert",
+      "nature",
+      "safari",
+      "wildlife",
+      "dunes"
+    ],
+    "description": "Protected desert ecosystem with rolling sand dunes, Arabian oryx sightings, and traditional sunset camps."
+  },
+  {
+    "id": "att_outskirts_04",
+    "name": "Ras Al Khor Wildlife Sanctuary (Flamingo Hide)",
+    "category": "nature",
+    "district": "Desert & Outskirts",
+    "lat": 25.1878,
+    "lng": 55.3341,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "low",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "07:30 - 17:30",
+      "friday": "07:30 - 17:30"
+    },
+    "tags": [
+      "birds",
+      "flamingos",
+      "wetlands",
+      "free",
+      "nature",
+      "photography"
+    ],
+    "description": "Urban wetland reserve serving as a critical haven for tens of thousands of migratory birds, notably pink flamingos."
+  },
+  {
+    "id": "att_outskirts_05",
+    "name": "Dubai Safari Park",
+    "category": "nature",
+    "district": "Desert & Outskirts",
+    "lat": 25.1782,
+    "lng": 55.4412,
+    "admission_fee_aed": 50.0,
+    "recommended_duration_mins": 180,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 17:00",
+      "friday": "09:00 - 17:00"
+    },
+    "tags": [
+      "wildlife",
+      "animals",
+      "safari",
+      "family",
+      "zoo"
+    ],
+    "description": "Expansive 119-hectare eco-friendly wildlife sanctuary housing 3,000 animals across African, Asian, and Arabian villages."
+  },
+  {
+    "id": "att_outskirts_06",
+    "name": "Ski Dubai Snow Park (Mall of the Emirates)",
+    "category": "adventure",
+    "district": "Palm Jumeirah & Jumeirah",
+    "lat": 25.1181,
+    "lng": 55.2003,
+    "admission_fee_aed": 220.0,
+    "recommended_duration_mins": 150,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "10:00 - 23:00",
+      "friday": "10:00 - 23:59"
+    },
+    "tags": [
+      "indoor_snow",
+      "skiing",
+      "penguins",
+      "thrill",
+      "family"
+    ],
+    "description": "Sub-zero indoor mountain snow park spanning 22,500 square meters with ski slopes, toboggans, and live gentoo penguins."
+  },
+  {
+    "id": "att_osm_001",
+    "name": "Al Ahmadiya School",
+    "category": "memorial",
+    "district": "Old Dubai & Creek",
+    "lat": 25.26843,
+    "lng": 55.29492,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "memorial",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_002",
+    "name": "Heritage House",
+    "category": "monument",
+    "district": "Old Dubai & Creek",
+    "lat": 25.26862,
+    "lng": 55.29475,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "monument",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_003",
+    "name": "The Waterfall",
+    "category": "attraction",
+    "district": "Downtown & DIFC",
+    "lat": 25.19529,
+    "lng": 55.27947,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Public heritage and sightseeing venue in Downtown & DIFC."
+  },
+  {
+    "id": "att_osm_004",
+    "name": "Al Mahatta Museum",
+    "category": "museum",
+    "district": "Desert & Outskirts",
+    "lat": 25.34595,
+    "lng": 55.39593,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "museum",
+      "osm_discovery",
+      "desert_&_outskirts"
+    ],
+    "description": "Public heritage and sightseeing venue in Desert & Outskirts."
+  },
+  {
+    "id": "att_osm_005",
+    "name": "Repton Museum",
+    "category": "museum",
+    "district": "Downtown & DIFC",
+    "lat": 25.13878,
+    "lng": 55.3599,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "museum",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Public heritage and sightseeing venue in Downtown & DIFC."
+  },
+  {
+    "id": "att_osm_006",
+    "name": "Hindu Temple",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.26482,
+    "lng": 55.29683,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_007",
+    "name": "Sabka Bus Station",
+    "category": "viewpoint",
+    "district": "Old Dubai & Creek",
+    "lat": 25.26986,
+    "lng": 55.30277,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "viewpoint",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_008",
+    "name": "Barjeel Art Foundation",
+    "category": "museum",
+    "district": "Old Dubai & Creek",
+    "lat": 25.32179,
+    "lng": 55.37659,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "museum",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_009",
+    "name": "Dubai Museum",
+    "category": "museum",
+    "district": "Old Dubai & Creek",
+    "lat": 25.26352,
+    "lng": 55.29718,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "museum",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_010",
+    "name": "Seawings",
+    "category": "attraction",
+    "district": "Dubai Marina & JBR",
+    "lat": 24.98899,
+    "lng": 55.02354,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "dubai_marina_&_jbr"
+    ],
+    "description": "Public heritage and sightseeing venue in Dubai Marina & JBR."
+  },
+  {
+    "id": "att_osm_011",
+    "name": "Sightseeing Cruise at Pier 1",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.25844,
+    "lng": 55.31773,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_012",
+    "name": "Action international workshop",
+    "category": "attraction",
+    "district": "Downtown & DIFC",
+    "lat": 24.96897,
+    "lng": 55.17857,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Public heritage and sightseeing venue in Downtown & DIFC."
+  },
+  {
+    "id": "att_osm_013",
+    "name": "Monument",
+    "category": "monument",
+    "district": "Old Dubai & Creek",
+    "lat": 25.26225,
+    "lng": 55.33597,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "monument",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_014",
+    "name": "Ansar Gallery",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.25242,
+    "lng": 55.3085,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_015",
+    "name": "Ibn Batutta Gate",
+    "category": "attraction",
+    "district": "Dubai Marina & JBR",
+    "lat": 25.04108,
+    "lng": 55.11578,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "dubai_marina_&_jbr"
+    ],
+    "description": "Public heritage and sightseeing venue in Dubai Marina & JBR."
+  },
+  {
+    "id": "att_osm_016",
+    "name": "Al Taawun Roundabout",
+    "category": "viewpoint",
+    "district": "Old Dubai & Creek",
+    "lat": 25.30877,
+    "lng": 55.37056,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "viewpoint",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_017",
+    "name": "Al Khan Beach",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.33601,
+    "lng": 55.3595,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_018",
+    "name": "Home Alqasemiah",
+    "category": "attraction",
+    "district": "Desert & Outskirts",
+    "lat": 25.34243,
+    "lng": 55.39322,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "desert_&_outskirts"
+    ],
+    "description": "Public heritage and sightseeing venue in Desert & Outskirts."
+  },
+  {
+    "id": "att_osm_019",
+    "name": "AL WADI AL AKHDAR AGRI.MATERIALS AND LANDSCAPING",
+    "category": "attraction",
+    "district": "Desert & Outskirts",
+    "lat": 25.29996,
+    "lng": 55.43221,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "desert_&_outskirts"
+    ],
+    "description": "Public heritage and sightseeing venue in Desert & Outskirts."
+  },
+  {
+    "id": "att_osm_020",
+    "name": "Fish Roundabout",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.27006,
+    "lng": 55.31644,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_021",
+    "name": "New Gold souq",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.25142,
+    "lng": 55.28263,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_022",
+    "name": "Diplomat hotel",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.27685,
+    "lng": 55.31295,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_023",
+    "name": "Skycourt towers",
+    "category": "attraction",
+    "district": "Desert & Outskirts",
+    "lat": 25.09026,
+    "lng": 55.38533,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "desert_&_outskirts"
+    ],
+    "description": "Public heritage and sightseeing venue in Desert & Outskirts."
+  },
+  {
+    "id": "att_osm_024",
+    "name": "Traditional Souq",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.27427,
+    "lng": 55.31048,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_025",
+    "name": "Al Falasi Building",
+    "category": "viewpoint",
+    "district": "Old Dubai & Creek",
+    "lat": 25.27387,
+    "lng": 55.31154,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "viewpoint",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_026",
+    "name": "Dubai Camel Racing Club",
+    "category": "attraction",
+    "district": "Desert & Outskirts",
+    "lat": 24.97147,
+    "lng": 55.4832,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "desert_&_outskirts"
+    ],
+    "description": "Public heritage and sightseeing venue in Desert & Outskirts."
+  },
+  {
+    "id": "att_osm_027",
+    "name": "Ritaj K",
+    "category": "viewpoint",
+    "district": "Downtown & DIFC",
+    "lat": 24.98709,
+    "lng": 55.20137,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "viewpoint",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Public heritage and sightseeing venue in Downtown & DIFC."
+  },
+  {
+    "id": "att_osm_028",
+    "name": "Al Montazah Amusement and Water Park",
+    "category": "attraction",
+    "district": "Desert & Outskirts",
+    "lat": 25.34302,
+    "lng": 55.38038,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "desert_&_outskirts"
+    ],
+    "description": "Public heritage and sightseeing venue in Desert & Outskirts."
+  },
+  {
+    "id": "att_osm_029",
+    "name": "Green Park building",
+    "category": "attraction",
+    "district": "Downtown & DIFC",
+    "lat": 25.04302,
+    "lng": 55.18863,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Public heritage and sightseeing venue in Downtown & DIFC."
+  },
+  {
+    "id": "att_osm_030",
+    "name": "Delta",
+    "category": "viewpoint",
+    "district": "Downtown & DIFC",
+    "lat": 25.08739,
+    "lng": 55.30284,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "viewpoint",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Public heritage and sightseeing venue in Downtown & DIFC."
+  },
+  {
+    "id": "att_osm_031",
+    "name": "Prime Residency 1",
+    "category": "attraction",
+    "district": "Desert & Outskirts",
+    "lat": 25.1656,
+    "lng": 55.39809,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "desert_&_outskirts"
+    ],
+    "description": "Public heritage and sightseeing venue in Desert & Outskirts."
+  },
+  {
+    "id": "att_osm_032",
+    "name": "Entrepreneur Business Village Deira Dubai",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.25736,
+    "lng": 55.32708,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_033",
+    "name": "Alqasbah",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.30665,
+    "lng": 55.34418,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_034",
+    "name": "Almajaz Park",
+    "category": "attraction",
+    "district": "Desert & Outskirts",
+    "lat": 25.32617,
+    "lng": 55.38644,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "desert_&_outskirts"
+    ],
+    "description": "Public heritage and sightseeing venue in Desert & Outskirts."
+  },
+  {
+    "id": "att_osm_035",
+    "name": "Al Salem tower",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.29024,
+    "lng": 55.37866,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_036",
+    "name": "Amani Residence",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.29095,
+    "lng": 55.37747,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_037",
+    "name": "OnStage International",
+    "category": "viewpoint",
+    "district": "Dubai Marina & JBR",
+    "lat": 25.06753,
+    "lng": 55.14434,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "viewpoint",
+      "osm_discovery",
+      "dubai_marina_&_jbr"
+    ],
+    "description": "Public heritage and sightseeing venue in Dubai Marina & JBR."
+  },
+  {
+    "id": "att_osm_038",
+    "name": "نقطة ارتكاز ومان شغل منطقة بداية المارينا",
+    "category": "viewpoint",
+    "district": "Dubai Marina & JBR",
+    "lat": 25.08917,
+    "lng": 55.15676,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "viewpoint",
+      "osm_discovery",
+      "dubai_marina_&_jbr"
+    ],
+    "description": "Public heritage and sightseeing venue in Dubai Marina & JBR."
+  },
+  {
+    "id": "att_osm_039",
+    "name": "Calida victory heights",
+    "category": "attraction",
+    "district": "Downtown & DIFC",
+    "lat": 25.0419,
+    "lng": 55.20825,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Public heritage and sightseeing venue in Downtown & DIFC."
+  },
+  {
+    "id": "att_osm_040",
+    "name": "Al Sabah Tower",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.29061,
+    "lng": 55.37817,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_041",
+    "name": "Dubai Moving Image Museum",
+    "category": "museum",
+    "district": "Palm Jumeirah & Jumeirah",
+    "lat": 25.09714,
+    "lng": 55.1789,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "museum",
+      "osm_discovery",
+      "palm_jumeirah_&_jumeirah"
+    ],
+    "description": "Public heritage and sightseeing venue in Palm Jumeirah & Jumeirah."
+  },
+  {
+    "id": "att_osm_042",
+    "name": "Dhow Wharfage",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.25599,
+    "lng": 55.32154,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_043",
+    "name": "محل شاحن متنقل ب 30 درهم دبي",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.27239,
+    "lng": 55.30455,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_044",
+    "name": "محل شاحن متنقل ب ٣٠ درهم دبي",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.27241,
+    "lng": 55.30456,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_045",
+    "name": "Karcher FZE",
+    "category": "attraction",
+    "district": "Dubai Marina & JBR",
+    "lat": 24.96125,
+    "lng": 55.09467,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "dubai_marina_&_jbr"
+    ],
+    "description": "Public heritage and sightseeing venue in Dubai Marina & JBR."
+  },
+  {
+    "id": "att_osm_046",
+    "name": "Pakistan Association Dubai",
+    "category": "attraction",
+    "district": "Downtown & DIFC",
+    "lat": 25.23855,
+    "lng": 55.31518,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Public heritage and sightseeing venue in Downtown & DIFC."
+  },
+  {
+    "id": "att_osm_047",
+    "name": "Women's museum",
+    "category": "museum",
+    "district": "Old Dubai & Creek",
+    "lat": 25.27182,
+    "lng": 55.2987,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "museum",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_048",
+    "name": "Old Sharjah Planetarium",
+    "category": "museum",
+    "district": "Old Dubai & Creek",
+    "lat": 25.33755,
+    "lng": 55.3741,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "museum",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_049",
+    "name": "Windsor Residence Dubailand",
+    "category": "viewpoint",
+    "district": "Desert & Outskirts",
+    "lat": 25.09518,
+    "lng": 55.38305,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "viewpoint",
+      "osm_discovery",
+      "desert_&_outskirts"
+    ],
+    "description": "Public heritage and sightseeing venue in Desert & Outskirts."
+  },
+  {
+    "id": "att_osm_050",
+    "name": "AWRostamani Building Industries",
+    "category": "viewpoint",
+    "district": "Downtown & DIFC",
+    "lat": 25.12836,
+    "lng": 55.24316,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "viewpoint",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Public heritage and sightseeing venue in Downtown & DIFC."
+  },
+  {
+    "id": "att_osm_051",
+    "name": "Ozti Machines",
+    "category": "attraction",
+    "district": "Downtown & DIFC",
+    "lat": 25.11802,
+    "lng": 55.23239,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Public heritage and sightseeing venue in Downtown & DIFC."
+  },
+  {
+    "id": "att_osm_052",
+    "name": "Last Exit Al Khawaneej",
+    "category": "attraction",
+    "district": "Desert & Outskirts",
+    "lat": 25.23481,
+    "lng": 55.47419,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "desert_&_outskirts"
+    ],
+    "description": "Public heritage and sightseeing venue in Desert & Outskirts."
+  },
+  {
+    "id": "att_osm_053",
+    "name": "Golden Horses",
+    "category": "monument",
+    "district": "Palm Jumeirah & Jumeirah",
+    "lat": 25.13114,
+    "lng": 55.18545,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "monument",
+      "osm_discovery",
+      "palm_jumeirah_&_jumeirah"
+    ],
+    "description": "Public heritage and sightseeing venue in Palm Jumeirah & Jumeirah."
+  },
+  {
+    "id": "att_osm_054",
+    "name": "Dubai Textile Souk",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.26414,
+    "lng": 55.29621,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_055",
+    "name": "Ras al Khor Wildlife Sanctuary",
+    "category": "attraction",
+    "district": "Downtown & DIFC",
+    "lat": 25.1918,
+    "lng": 55.32208,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Closed for major renovations. Expected to reopen at the end of 2026."
+  },
+  {
+    "id": "att_osm_056",
+    "name": "The Empty Quarter Gallery",
+    "category": "museum",
+    "district": "Downtown & DIFC",
+    "lat": 25.21325,
+    "lng": 55.28238,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "museum",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Public heritage and sightseeing venue in Downtown & DIFC."
+  },
+  {
+    "id": "att_osm_057",
+    "name": "Mawaheb Art Studio",
+    "category": "museum",
+    "district": "Old Dubai & Creek",
+    "lat": 25.26441,
+    "lng": 55.29942,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "museum",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_058",
+    "name": "The National Gallery",
+    "category": "museum",
+    "district": "Downtown & DIFC",
+    "lat": 25.14123,
+    "lng": 55.22587,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": true,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "museum",
+      "osm_discovery",
+      "downtown_&_difc"
+    ],
+    "description": "Public heritage and sightseeing venue in Downtown & DIFC."
+  },
+  {
+    "id": "att_osm_059",
+    "name": "Old Souq",
+    "category": "attraction",
+    "district": "Old Dubai & Creek",
+    "lat": 25.27896,
+    "lng": 55.31031,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "old_dubai_&_creek"
+    ],
+    "description": "Public heritage and sightseeing venue in Old Dubai & Creek."
+  },
+  {
+    "id": "att_osm_060",
+    "name": "Dhurba ko room",
+    "category": "attraction",
+    "district": "Dubai Marina & JBR",
+    "lat": 25.00037,
+    "lng": 55.10725,
+    "admission_fee_aed": 0.0,
+    "recommended_duration_mins": 60,
+    "crowd_level": "medium",
+    "is_indoor": false,
+    "opening_hours": {
+      "regular": "09:00 - 21:00",
+      "friday": "09:00 - 21:00"
+    },
+    "tags": [
+      "attraction",
+      "osm_discovery",
+      "dubai_marina_&_jbr"
+    ],
+    "description": "Public heritage and sightseeing venue in Dubai Marina & JBR."
+  }
+]
