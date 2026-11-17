@@ -13,7 +13,7 @@
 
 *A production-grade, stateful multi-agent travel concierge that generates hyper-optimized, thermally safe, and financially validated Dubai itineraries in seconds with **zero API operational costs**.*
 
-[Live Demo](https://share.streamlit.io) • [Architecture](docs/architecture.md) • [Deployment Guide](docs/deployment-plan.md) • [Design System](docs/DESIGN.md)
+[Live Demo](https://dubai-travelplanner.streamlit.app/) • [Architecture](docs/architecture.md) • [Deployment Guide](docs/deployment-plan.md) • [Design System](docs/DESIGN.md)
 
 ---
 
